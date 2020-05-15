@@ -14,6 +14,9 @@ public class AutomaticAnswers {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
 
+        ImageIcon icon = new ImageIcon("H:\\java.projects\\src\\automaticAnswers\\Screenshot_435.png");
+        frame.setIconImage(icon.getImage());
+
         JPanel panel = new JPanel();
         panel.setBackground(new Color(59,59,59));
 

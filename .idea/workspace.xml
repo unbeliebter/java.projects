@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java.projects/AutomaticAnswers$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java.projects/AutomaticAnswers$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java.projects/AutomaticAnswers$2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java.projects/AutomaticAnswers$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java.projects/AutomaticAnswers.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/automaticAnswers/AutomaticAnswers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automaticAnswers/AutomaticAnswers.java" afterDir="false" />
     </list>
     <list id="af875ae6-0371-4103-99a2-b3dd3f5e249f" name="L" comment="L">
@@ -29,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/automaticAnswers/AutomaticAnswers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="272">
+              <caret line="16" column="100" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,6 +159,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\java.projects\src\automaticAnswers" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -232,7 +232,7 @@
       <workItem from="1589469365428" duration="543000" />
       <workItem from="1589486639975" duration="2090000" />
       <workItem from="1589552251094" duration="9681000" />
-      <workItem from="1589580340922" duration="4601000" />
+      <workItem from="1589580340922" duration="5254000" />
     </task>
     <task id="LOCAL-00001" summary="add src">
       <created>1585777779614</created>
@@ -297,11 +297,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589584583910</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="removed package due to collisions">
+      <created>1589585068001</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589585068001</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26355000" />
+    <option name="totallyTimeSpent" value="27008000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,7 +323,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -325,7 +332,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.1971831" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.1971831" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -368,7 +375,8 @@
     <MESSAGE value="add one automatic answer" />
     <MESSAGE value="add sorted projects and add a automatic answer" />
     <MESSAGE value="add package by automaticAnswers" />
-    <option name="LAST_COMMIT_MESSAGE" value="add package by automaticAnswers" />
+    <MESSAGE value="removed package due to collisions" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed package due to collisions" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/JFrameSkytale.java">
@@ -430,8 +438,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/automaticAnswers/AutomaticAnswers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="272">
+          <caret line="16" column="100" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
