@@ -1,5 +1,3 @@
-package automaticAnswers;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.datatransfer.Clipboard;
