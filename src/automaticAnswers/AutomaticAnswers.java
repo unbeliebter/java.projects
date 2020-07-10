@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 public class AutomaticAnswers {
     public static void main(String[] args) {
 
-        JFrame frame = new JFrame("Standartantworten | Contents");
+        JFrame frame = new JFrame("Standardantworten | Contents");
         frame.setSize(300, 450);
         frame.setTitle("Standartantworten | Contents");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -20,7 +20,7 @@ public class AutomaticAnswers {
         JPanel panel = new JPanel();
         panel.setBackground(new Color(59,59,59));
 
-        JLabel wirdWeitergegeben = new JLabel("» Wird weitergegeben «");
+        JLabel wirdWeitergegeben = new JLabel("[Wird weitergegeben]");
         wirdWeitergegeben.setForeground(Color.WHITE);
         panel.add(wirdWeitergegeben);
 
@@ -80,7 +80,7 @@ public class AutomaticAnswers {
             }
         });
 
-        JLabel bugBehobenLabel = new JLabel("» Bug behoben «");
+        JLabel bugBehobenLabel = new JLabel("[Bug behoben]");
         bugBehobenLabel.setForeground(Color.WHITE);
         panel.add(bugBehobenLabel);
 

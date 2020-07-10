@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/OOP/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Sofa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/automaticAnswers/AutomaticAnswers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/automaticAnswers/AutomaticAnswers.java" afterDir="false" />
     </list>
@@ -21,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/automaticAnswers/AutomaticAnswers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="100" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
+            <state relative-caret-position="1309">
+              <caret line="82" column="58" selection-start-line="82" selection-start-column="58" selection-end-line="82" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,8 +56,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SkytaleCryptographie/Skytale.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="629">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/OOP/Chair.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/OOP/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/OOP/Sofa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -88,12 +117,15 @@
         <option value="$PROJECT_DIR$/src/AutomaticAnswers.java" />
         <option value="$PROJECT_DIR$/src/automaticAnswers/StandardAnswers.java" />
         <option value="$PROJECT_DIR$/src/automaticAnswers/AutomaticAnswers.java" />
+        <option value="$PROJECT_DIR$/src/OOP/Sofa.java" />
+        <option value="$PROJECT_DIR$/src/OOP/Main.java" />
+        <option value="$PROJECT_DIR$/src/OOP/Chair.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="276" />
+    <option name="y" value="39" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -103,8 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,6 +162,12 @@
               <item name="java.projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="java.projects" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java.projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java.projects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="random" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -140,10 +176,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SkytaleCryptographie" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java.projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,11 +199,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\java.projects\src\automaticAnswers" />
+      <recent name="H:\java.projects\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -176,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AutomaticAnswers">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AutomaticAnswers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AutomaticAnswers" />
       <module name="java.projects" />
@@ -198,6 +241,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP.Main" />
+      <module name="java.projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Skytale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Skytale" />
       <module name="java.projects" />
@@ -207,6 +263,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.AutomaticAnswers" />
         <item itemvalue="Application.JFrameSkytale" />
         <item itemvalue="Application.Skytale" />
@@ -232,7 +289,17 @@
       <workItem from="1589469365428" duration="543000" />
       <workItem from="1589486639975" duration="2090000" />
       <workItem from="1589552251094" duration="9681000" />
-      <workItem from="1589580340922" duration="5254000" />
+      <workItem from="1589580340922" duration="6421000" />
+      <workItem from="1589587130760" duration="221000" />
+      <workItem from="1589587373165" duration="71000" />
+      <workItem from="1589587465638" duration="462000" />
+      <workItem from="1589897134973" duration="17000" />
+      <workItem from="1590100236185" duration="59000" />
+      <workItem from="1590140001218" duration="47000" />
+      <workItem from="1590645602517" duration="192000" />
+      <workItem from="1590669283665" duration="12000" />
+      <workItem from="1591638135823" duration="3661000" />
+      <workItem from="1592399630830" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="add src">
       <created>1585777779614</created>
@@ -304,11 +371,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589585068001</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add icon to automaticAnswers">
+      <created>1589585818954</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589585818954</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27008000" />
+    <option name="totallyTimeSpent" value="32957000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -323,7 +397,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21588486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -332,7 +406,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.1971831" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.1971831" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -376,42 +450,21 @@
     <MESSAGE value="add sorted projects and add a automatic answer" />
     <MESSAGE value="add package by automaticAnswers" />
     <MESSAGE value="removed package due to collisions" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed package due to collisions" />
+    <MESSAGE value="add icon to automaticAnswers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add icon to automaticAnswers" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/JFrameSkytale.java">
+    <entry file="file://$PROJECT_DIR$/src/JFrameSkytale.java" />
+    <entry file="file://$PROJECT_DIR$/src/ForEach.java" />
+    <entry file="file://$PROJECT_DIR$/src/AutomaticAnswers.java" />
+    <entry file="file://$PROJECT_DIR$/src/Skytale.java" />
+    <entry file="file://$PROJECT_DIR$/src/automaticAnswers/AutomaticAnswers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="82" column="20" lean-forward="true" selection-start-line="82" selection-start-column="20" selection-end-line="83" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3874#3875#0" expanded="true" />
-            <element signature="e#3942#3943#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ForEach.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AutomaticAnswers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1602">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="1309">
+          <caret line="82" column="58" selection-start-line="82" selection-start-column="58" selection-end-line="82" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Skytale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -422,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SkytaleCryptographie/Skytale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SkytaleCryptographie/JFrameSkytale.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -436,13 +482,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/automaticAnswers/AutomaticAnswers.java">
+    <entry file="file://$PROJECT_DIR$/src/SkytaleCryptographie/Skytale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="100" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
+        <state relative-caret-position="629">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/Chair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/Sofa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" />
         </state>
       </provider>
     </entry>
