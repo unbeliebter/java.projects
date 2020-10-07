@@ -36,19 +36,15 @@ public class KgV {
         String number2 = "";
 
         while (true) {
-
             for (int i = 0; i < 1000; i++) {
-
                 number1 = "" + firstNumberArray[counter];
                 number2 = "" + secondNumberArray[i];
 
                 if (number1.equalsIgnoreCase(number2)) {
                     return Integer.parseInt(number1);
                 }
-
             }
             counter++;
-
         }
     }
 }
