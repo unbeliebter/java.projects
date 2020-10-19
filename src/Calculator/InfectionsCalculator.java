@@ -6,6 +6,24 @@ public class InfectionsCalculator {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        String reproductionNumber = scanner.nextLine();
+
+        System.out.println("Gebe das Zeitintervall an: (>0)");
+        int time = scanner.nextInt();
+
+        if (time < 0) {
+            System.out.println("Die Zahl ist leider zu klein und muss über 0 liegen!");
+            time = scanner.nextInt();
+        }
+
+        System.out.println("Gebe die Reproduktionszahl an");
+        double reproductionNumber = scanner.nextDouble();
+
+        System.out.println("Gebe die aktiven Infektionen an (>0)");
+        int infectionNumber = scanner.nextInt();
+
+        if (infectionNumber < 0) {
+            System.out.println("Die Zahl ist leide rzu klein und muss über 0 liegen!");
+            infectionNumber = scanner.nextInt();
+        }
     }
 }
