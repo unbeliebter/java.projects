@@ -22,7 +22,7 @@ public class InfectionsCalculator {
         double infectionNumber = scanner.nextInt();
 
         if (infectionNumber < 0) {
-            System.out.println("Die Zahl ist leide rzu klein und muss über 0 liegen!");
+            System.out.println("Die Zahl ist leider zu klein und muss über 0 liegen!");
             infectionNumber = scanner.nextInt();
         }
 
@@ -38,7 +38,7 @@ public class InfectionsCalculator {
 
         for (int i = 0; i < time; i++) {
             infectionNumber = infectionNumber * reproductionNumber;
-            System.out.println(infectionNumber);
+            System.out.println(i + " | " + (int)infectionNumber);
         }
     }
 }
