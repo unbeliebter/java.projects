@@ -19,11 +19,26 @@ public class InfectionsCalculator {
         double reproductionNumber = scanner.nextDouble();
 
         System.out.println("Gebe die aktiven Infektionen an (>0)");
-        int infectionNumber = scanner.nextInt();
+        double infectionNumber = scanner.nextInt();
 
         if (infectionNumber < 0) {
             System.out.println("Die Zahl ist leide rzu klein und muss über 0 liegen!");
             infectionNumber = scanner.nextInt();
+        }
+
+        pandemicDrawer(time, reproductionNumber, infectionNumber);
+    }
+
+    static void pandemicDrawer(int time, double reproductionNumber, double infectionNumber) {
+
+        double intensivePatients;
+        double intensivePationsOnRaspirator;
+        double healedPatients;
+        double[] counter = new double[14];
+
+        for (int i = 0; i < time; i++) {
+            infectionNumber = infectionNumber * reproductionNumber;
+            System.out.println(infectionNumber);
         }
     }
 }
