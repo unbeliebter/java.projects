@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/rekursion/Rekursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java" afterDir="false" />
     </list>
     <list id="af875ae6-0371-4103-99a2-b3dd3f5e249f" name="L" comment="L">
       <change afterPath="$PROJECT_DIR$/../school.spg/.idea/vcs.xml" afterDir="false" />
@@ -22,15 +22,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homework/StringArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/homework/KgV.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="867">
@@ -48,11 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+            <state relative-caret-position="612">
+              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/rekursion/Rekursion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -154,6 +154,8 @@
         <option value="$PROJECT_DIR$/src/homework/ForestRekursive.java" />
         <option value="$PROJECT_DIR$/src/homework/KgV.java" />
         <option value="$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java" />
+        <option value="$PROJECT_DIR$/src/rekursion/rekursion.java" />
+        <option value="$PROJECT_DIR$/src/rekursion/Rekursion.java" />
       </list>
     </option>
   </component>
@@ -169,8 +171,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,6 +220,12 @@
               <item name="java.projects" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="random" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java.projects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java.projects" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="rekursion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java.projects" type="b2602c69:ProjectViewProjectNode" />
@@ -272,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InfectionsCalculator">
+  <component name="RunManager" selected="Application.Rekursion">
     <configuration name="Forest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.Forest" />
       <module name="java.projects" />
@@ -299,12 +307,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeronProceed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.HeronProceed" />
+    <configuration name="InfectionsCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calculator.InfectionsCalculator" />
       <module name="java.projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.*" />
+          <option name="PATTERN" value="Calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,12 +320,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfectionsCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calculator.InfectionsCalculator" />
+    <configuration name="Rekursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rekursion.Rekursion" />
       <module name="java.projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Calculator.*" />
+          <option name="PATTERN" value="rekursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,11 +348,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Rekursion" />
         <item itemvalue="Application.InfectionsCalculator" />
         <item itemvalue="Application.ForestRekursive" />
         <item itemvalue="Application.Forest" />
         <item itemvalue="Application.StringArray" />
-        <item itemvalue="Application.HeronProceed" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +399,9 @@
       <workItem from="1602073979308" duration="3081000" />
       <workItem from="1602102249445" duration="2954000" />
       <workItem from="1603061400019" duration="1048000" />
-      <workItem from="1603136522951" duration="1727000" />
+      <workItem from="1603136522951" duration="1845000" />
+      <workItem from="1603140714747" duration="57000" />
+      <workItem from="1604954720007" duration="705000" />
     </task>
     <task id="LOCAL-00001" summary="add src">
       <created>1585777779614</created>
@@ -554,11 +564,18 @@
       <option name="project" value="LOCAL" />
       <updated>1603137726031</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="calculates now infections">
+      <created>1603138373249</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1603138373249</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63661000" />
+    <option name="totallyTimeSpent" value="64541000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,7 +590,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -639,7 +656,8 @@
     <MESSAGE value="Updated InfectionCalculator" />
     <MESSAGE value="done the scanning stuff" />
     <MESSAGE value="started pandemicDrawer" />
-    <option name="LAST_COMMIT_MESSAGE" value="started pandemicDrawer" />
+    <MESSAGE value="calculates now infections" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculates now infections" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/JFrameSkytale.java" />
@@ -783,8 +801,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        <state relative-caret-position="612">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rekursion/Rekursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
         </state>
       </provider>
     </entry>
