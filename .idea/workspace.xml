@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="">
+    <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="changes in logic and add active infections">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java" afterDir="false" />
     </list>
@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+            <state relative-caret-position="1309">
+              <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -358,7 +358,7 @@
       <workItem from="1603140714747" duration="57000" />
       <workItem from="1604954720007" duration="1303000" />
       <workItem from="1605402223363" duration="2910000" />
-      <workItem from="1605439683855" duration="643000" />
+      <workItem from="1605439683855" duration="4123000" />
     </task>
     <task id="LOCAL-00001" summary="add src">
       <created>1585777779614</created>
@@ -563,11 +563,25 @@
       <option name="project" value="LOCAL" />
       <updated>1605404933487</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="implemented BigDecimal">
+      <created>1605440349036</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1605440349036</updated>
+    </task>
+    <task id="LOCAL-00031" summary="changes in logic and add active infections">
+      <created>1605443169910</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1605443169910</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68692000" />
+    <option name="totallyTimeSpent" value="72172000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -580,6 +594,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -626,8 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add JFrameSkytale" />
-    <MESSAGE value="add AutomaticAnswers.java" />
     <MESSAGE value="add one automatic answer" />
     <MESSAGE value="add sorted projects and add a automatic answer" />
     <MESSAGE value="add package by automaticAnswers" />
@@ -651,7 +664,9 @@
     <MESSAGE value="add intensive patients on Respirator" />
     <MESSAGE value="add healed persons" />
     <MESSAGE value="start changing the variables to BigDecimal" />
-    <option name="LAST_COMMIT_MESSAGE" value="start changing the variables to BigDecimal" />
+    <MESSAGE value="implemented BigDecimal" />
+    <MESSAGE value="changes in logic and add active infections" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes in logic and add active infections" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/JFrameSkytale.java" />
@@ -802,8 +817,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+        <state relative-caret-position="1309">
+          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

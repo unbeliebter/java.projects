@@ -9,7 +9,7 @@ public class InfectionsCalculator {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Gebe das Zeitintervall an: (>0)");
+        System.out.println("\t→ Gebe den Zeitraum an: ( > 1 in d)");
         int time = scanner.nextInt();
 
         if (time < 0) {
@@ -17,10 +17,10 @@ public class InfectionsCalculator {
             time = scanner.nextInt();
         }
 
-        System.out.println("Gebe die Reproduktionszahl an");
+        System.out.println("\t→ Gebe die Reproduktionszahl an: ( > 1) ");
         BigDecimal reproductionNumber = scanner.nextBigDecimal();
 
-        System.out.println("Gebe die aktiven Infektionen an (>0)");
+        System.out.println("\t→ Gebe die aktiven Infektionen an (>0)");
         BigDecimal infectionNumber = scanner.nextBigDecimal();
 
         BigDecimal zero = new BigDecimal(0);
@@ -31,14 +31,19 @@ public class InfectionsCalculator {
         }
 
         pandemicDrawer(time, reproductionNumber, infectionNumber);
+        System.out.println("These Informations are based on a constantly reproducion number and doesn't display real numbers!");
     }
 
     static void pandemicDrawer(int time, BigDecimal reproductionNumber, BigDecimal infectionNumber) {
 
+        String output = "";
+
         BigDecimal intensivePatients;
         BigDecimal intensiveOnRespirator;
+
         BigDecimal healedPatients = new BigDecimal(0);
         BigDecimal[] counter = new BigDecimal[time];
+
         BigDecimal activeInfections = new BigDecimal(0);
         BigDecimal difference;
 
@@ -57,12 +62,21 @@ public class InfectionsCalculator {
             if (i > 13) {
                healedPatients = counter[i - 14];
                activeInfections = activeInfections.subtract(healedPatients).add(difference);
+
             } else if (i > 0){
                 activeInfections = infectionNumber;
             }
 
-            System.out.println("Day: " + i + " | Infections: " + infectionNumber.setScale(1, BigDecimal.ROUND_HALF_DOWN) + " | intensivePatients: " + intensivePatients.setScale(1, BigDecimal.ROUND_HALF_DOWN) + " | on O²: " + intensiveOnRespirator.setScale(1, BigDecimal.ROUND_HALF_DOWN) + " | Healed: " + healedPatients.setScale(1, BigDecimal.ROUND_HALF_DOWN) + " | Active Infections: " + activeInfections.setScale(1, BigDecimal.ROUND_HALF_DOWN));
-        }
+            output = "_______________________________________________________________ \n" +
+                    "Day: " + i + " \n" +
+                    "Infections Total » " + infectionNumber.setScale(1, BigDecimal.ROUND_HALF_DOWN) + " \n" +
+                    "Active Infections » " + activeInfections.setScale(1, BigDecimal.ROUND_HALF_DOWN) + " \n" +
+                    "Healed Patients » " + healedPatients.setScale(1, BigDecimal.ROUND_HALF_DOWN) + " \n" +
+                    "Intensive Patients » " + intensivePatients.setScale(1, BigDecimal.ROUND_HALF_DOWN) + " \n" +
+                    "On Respirator » " + intensiveOnRespirator.setScale(1, BigDecimal.ROUND_HALF_DOWN)+ " \n" +
+                    "_______________________________________________________________";
+            System.out.println(output);
+            }
 
 
     }
