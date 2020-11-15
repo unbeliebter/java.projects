@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java" afterDir="false" />
     </list>
     <list id="af875ae6-0371-4103-99a2-b3dd3f5e249f" name="L" comment="L">
       <change afterPath="$PROJECT_DIR$/../school.spg/.idea/vcs.xml" afterDir="false" />
@@ -41,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="133" selection-start-line="41" selection-start-column="133" selection-end-line="41" selection-end-column="133" />
+            <state relative-caret-position="714">
+              <caret line="42" column="184" selection-start-line="42" selection-start-column="184" selection-end-line="42" selection-end-column="184" />
             </state>
           </provider>
         </entry>
@@ -353,7 +354,7 @@
       <workItem from="1603136522951" duration="1845000" />
       <workItem from="1603140714747" duration="57000" />
       <workItem from="1604954720007" duration="1303000" />
-      <workItem from="1605402223363" duration="404000" />
+      <workItem from="1605402223363" duration="677000" />
     </task>
     <task id="LOCAL-00001" summary="add src">
       <created>1585777779614</created>
@@ -530,11 +531,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604955628461</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add intensive patients">
+      <created>1605402824516</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1605402824516</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65543000" />
+    <option name="totallyTimeSpent" value="65816000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -617,7 +625,8 @@
     <MESSAGE value="started pandemicDrawer" />
     <MESSAGE value="calculates now infections" />
     <MESSAGE value="add rekursion as a example" />
-    <option name="LAST_COMMIT_MESSAGE" value="add rekursion as a example" />
+    <MESSAGE value="add intensive patients" />
+    <option name="LAST_COMMIT_MESSAGE" value="add intensive patients" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/JFrameSkytale.java" />
@@ -768,8 +777,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="133" selection-start-line="41" selection-start-column="133" selection-end-line="41" selection-end-column="133" />
+        <state relative-caret-position="714">
+          <caret line="42" column="184" selection-start-line="42" selection-start-column="184" selection-end-line="42" selection-end-column="184" />
         </state>
       </provider>
     </entry>

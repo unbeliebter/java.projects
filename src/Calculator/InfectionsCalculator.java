@@ -32,14 +32,15 @@ public class InfectionsCalculator {
     static void pandemicDrawer(int time, double reproductionNumber, double infectionNumber) {
 
         double intensivePatients;
-        double intensivePationsOnRaspirator;
+        double intensiveOnRespirator;
         double healedPatients;
         double[] counter = new double[14];
 
         for (int i = 0; i < time; i++) {
             infectionNumber = infectionNumber * reproductionNumber;
             intensivePatients = (infectionNumber / 100) * 1.7;
-            System.out.println("Day: " + i + " | Infections: " + (int)infectionNumber + " | intensivePatients: " + (int)intensivePatients);
+            intensiveOnRespirator = intensivePatients / 2;
+            System.out.println("Day: " + i + " | Infections: " + (int) infectionNumber + " | intensivePatients: " + (int) intensivePatients + " | on O²: " + (int) intensiveOnRespirator);
         }
 
 
