@@ -38,7 +38,10 @@ public class InfectionsCalculator {
 
         for (int i = 0; i < time; i++) {
             infectionNumber = infectionNumber * reproductionNumber;
-            System.out.println(i + " | " + (int)infectionNumber);
+            intensivePatients = (infectionNumber / 100) * 1.7;
+            System.out.println("Day: " + i + " | Infections: " + (int)infectionNumber + " | intensivePatients: " + (int)intensivePatients);
         }
+
+
     }
 }
