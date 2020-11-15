@@ -1,5 +1,6 @@
 package Calculator;
 
+import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class InfectionsCalculator {
@@ -16,25 +17,27 @@ public class InfectionsCalculator {
         }
 
         System.out.println("Gebe die Reproduktionszahl an");
-        double reproductionNumber = scanner.nextDouble();
+        BigDecimal reproductionNumber = scanner.nextBigDecimal();
 
         System.out.println("Gebe die aktiven Infektionen an (>0)");
-        double infectionNumber = scanner.nextInt();
+        BigDecimal infectionNumber = scanner.nextBigDecimal();
 
-        if (infectionNumber < 0) {
+        BigDecimal zero = new BigDecimal(0);
+
+        if (infectionNumber.compareTo(zero) < 0) {
             System.out.println("Die Zahl ist leider zu klein und muss über 0 liegen!");
-            infectionNumber = scanner.nextInt();
+            infectionNumber = scanner.nextBigDecimal();
         }
 
         pandemicDrawer(time, reproductionNumber, infectionNumber);
     }
 
-    static void pandemicDrawer(int time, double reproductionNumber, double infectionNumber) {
+    static void pandemicDrawer(int time, BigDecimal reproductionNumber, BigDecimal infectionNumber) {
 
-        double intensivePatients;
-        double intensiveOnRespirator;
-        double healedPatients = 0;
-        double[] counter = new double[time];
+        BigDecimal intensivePatients;
+        BigDecimal intensiveOnRespirator;
+        BigDecimal healedPatients;
+        BigDecimal[] counter = new BigDecimal[time];
 
         for (int i = 0; i < time; i++) {
             infectionNumber = infectionNumber * reproductionNumber;
