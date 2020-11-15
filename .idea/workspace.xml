@@ -42,8 +42,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="217" selection-start-line="49" selection-start-column="217" selection-end-line="49" selection-end-column="217" />
+            <state relative-caret-position="436">
+              <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,8 +174,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -354,7 +357,8 @@
       <workItem from="1603136522951" duration="1845000" />
       <workItem from="1603140714747" duration="57000" />
       <workItem from="1604954720007" duration="1303000" />
-      <workItem from="1605402223363" duration="1816000" />
+      <workItem from="1605402223363" duration="2910000" />
+      <workItem from="1605439683855" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="add src">
       <created>1585777779614</created>
@@ -545,11 +549,25 @@
       <option name="project" value="LOCAL" />
       <updated>1605403109516</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add healed persons">
+      <created>1605404132465</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1605404132466</updated>
+    </task>
+    <task id="LOCAL-00029" summary="start changing the variables to BigDecimal">
+      <created>1605404933487</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1605404933487</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66955000" />
+    <option name="totallyTimeSpent" value="68692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -562,9 +580,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -609,8 +626,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add src" />
-    <MESSAGE value="add Skytale" />
     <MESSAGE value="add JFrameSkytale" />
     <MESSAGE value="add AutomaticAnswers.java" />
     <MESSAGE value="add one automatic answer" />
@@ -634,7 +649,9 @@
     <MESSAGE value="add rekursion as a example" />
     <MESSAGE value="add intensive patients" />
     <MESSAGE value="add intensive patients on Respirator" />
-    <option name="LAST_COMMIT_MESSAGE" value="add intensive patients on Respirator" />
+    <MESSAGE value="add healed persons" />
+    <MESSAGE value="start changing the variables to BigDecimal" />
+    <option name="LAST_COMMIT_MESSAGE" value="start changing the variables to BigDecimal" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/JFrameSkytale.java" />
@@ -734,6 +751,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/rekursion/Rekursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/homework/Forest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -776,17 +800,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rekursion/Rekursion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="217" selection-start-line="49" selection-start-column="217" selection-end-line="49" selection-end-column="217" />
+        <state relative-caret-position="436">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

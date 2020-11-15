@@ -34,22 +34,26 @@ public class InfectionsCalculator {
 
     static void pandemicDrawer(int time, BigDecimal reproductionNumber, BigDecimal infectionNumber) {
 
+        BigDecimal intensiveRate = new BigDecimal(1.7);
+        BigDecimal hundred = new BigDecimal(100);
+        BigDecimal two = new BigDecimal(2);
+
         BigDecimal intensivePatients;
         BigDecimal intensiveOnRespirator;
-        BigDecimal healedPatients;
+        BigDecimal healedPatients = new BigDecimal(0);
         BigDecimal[] counter = new BigDecimal[time];
 
         for (int i = 0; i < time; i++) {
-            infectionNumber = infectionNumber * reproductionNumber;
-            intensivePatients = (infectionNumber / 100) * 1.7;
-            intensiveOnRespirator = intensivePatients / 2;
+            infectionNumber = infectionNumber.multiply(reproductionNumber);
+            intensivePatients = infectionNumber.divide(hundred).multiply(intensiveRate);
+            intensiveOnRespirator = intensivePatients.divide(two);
             counter[i] = infectionNumber;
 
             if (i > 13) {
                healedPatients = counter[i - 14];
             }
 
-            System.out.println("Day: " + i + " | Infections: " + (int) infectionNumber + " | intensivePatients: " + (int) intensivePatients + " | on O²: " + (int) intensiveOnRespirator + " | Healed: " + (int) healedPatients);
+            System.out.println("Day: " + i + " | Infections: " + infectionNumber + " | intensivePatients: " + intensivePatients + " | on O²: " + intensiveOnRespirator + " | Healed: " + healedPatients);
         }
 
 
