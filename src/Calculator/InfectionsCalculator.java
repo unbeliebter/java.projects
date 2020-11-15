@@ -1,6 +1,7 @@
 package Calculator;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.Scanner;
 
 public class InfectionsCalculator {
@@ -34,26 +35,33 @@ public class InfectionsCalculator {
 
     static void pandemicDrawer(int time, BigDecimal reproductionNumber, BigDecimal infectionNumber) {
 
-        BigDecimal intensiveRate = new BigDecimal(1.7);
-        BigDecimal hundred = new BigDecimal(100);
-        BigDecimal two = new BigDecimal(2);
-
         BigDecimal intensivePatients;
         BigDecimal intensiveOnRespirator;
         BigDecimal healedPatients = new BigDecimal(0);
         BigDecimal[] counter = new BigDecimal[time];
+        BigDecimal activeInfections = new BigDecimal(0);
+        BigDecimal difference;
 
         for (int i = 0; i < time; i++) {
             infectionNumber = infectionNumber.multiply(reproductionNumber);
-            intensivePatients = infectionNumber.divide(hundred).multiply(intensiveRate);
-            intensiveOnRespirator = intensivePatients.divide(two);
+            intensivePatients = activeInfections.divide(new BigDecimal(100), RoundingMode.DOWN).multiply(new BigDecimal(1.7));
+            intensiveOnRespirator = intensivePatients.divide(new BigDecimal(2), RoundingMode.DOWN);
             counter[i] = infectionNumber;
+
+            if (i > 0) {
+                difference = infectionNumber.subtract(counter[i-1]);
+            } else {
+                difference = infectionNumber;
+            }
 
             if (i > 13) {
                healedPatients = counter[i - 14];
+               activeInfections = activeInfections.subtract(healedPatients).add(difference);
+            } else if (i > 0){
+                activeInfections = infectionNumber;
             }
 
-            System.out.println("Day: " + i + " | Infections: " + infectionNumber + " | intensivePatients: " + intensivePatients + " | on O²: " + intensiveOnRespirator + " | Healed: " + healedPatients);
+            System.out.println("Day: " + i + " | Infections: " + infectionNumber.setScale(1, BigDecimal.ROUND_HALF_DOWN) + " | intensivePatients: " + intensivePatients.setScale(1, BigDecimal.ROUND_HALF_DOWN) + " | on O²: " + intensiveOnRespirator.setScale(1, BigDecimal.ROUND_HALF_DOWN) + " | Healed: " + healedPatients.setScale(1, BigDecimal.ROUND_HALF_DOWN) + " | Active Infections: " + activeInfections.setScale(1, BigDecimal.ROUND_HALF_DOWN));
         }
 
 
