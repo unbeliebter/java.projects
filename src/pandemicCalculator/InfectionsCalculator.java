@@ -1,4 +1,4 @@
-package Calculator;
+package pandemicCalculator;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -31,7 +31,7 @@ public class InfectionsCalculator {
         }
 
         pandemicDrawer(time, reproductionNumber, infectionNumber);
-        System.out.println("These Informations are based on a constantly reproducion number and doesn't display real numbers!");
+        System.out.println("These information are based on a constantly reproducion number and doesn't display real numbers!");
     }
 
     static void pandemicDrawer(int time, BigDecimal reproductionNumber, BigDecimal infectionNumber) {
