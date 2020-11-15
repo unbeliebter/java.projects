@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="184" selection-start-line="42" selection-start-column="184" selection-end-line="42" selection-end-column="184" />
+            <state relative-caret-position="833">
+              <caret line="49" column="217" selection-start-line="49" selection-start-column="217" selection-end-line="49" selection-end-column="217" />
             </state>
           </provider>
         </entry>
@@ -354,7 +354,7 @@
       <workItem from="1603136522951" duration="1845000" />
       <workItem from="1603140714747" duration="57000" />
       <workItem from="1604954720007" duration="1303000" />
-      <workItem from="1605402223363" duration="677000" />
+      <workItem from="1605402223363" duration="1816000" />
     </task>
     <task id="LOCAL-00001" summary="add src">
       <created>1585777779614</created>
@@ -538,11 +538,18 @@
       <option name="project" value="LOCAL" />
       <updated>1605402824516</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add intensive patients on Respirator">
+      <created>1605403109516</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1605403109516</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65816000" />
+    <option name="totallyTimeSpent" value="66955000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -626,7 +633,8 @@
     <MESSAGE value="calculates now infections" />
     <MESSAGE value="add rekursion as a example" />
     <MESSAGE value="add intensive patients" />
-    <option name="LAST_COMMIT_MESSAGE" value="add intensive patients" />
+    <MESSAGE value="add intensive patients on Respirator" />
+    <option name="LAST_COMMIT_MESSAGE" value="add intensive patients on Respirator" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/JFrameSkytale.java" />
@@ -777,8 +785,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="184" selection-start-line="42" selection-start-column="184" selection-end-line="42" selection-end-column="184" />
+        <state relative-caret-position="833">
+          <caret line="49" column="217" selection-start-line="49" selection-start-column="217" selection-end-line="49" selection-end-column="217" />
         </state>
       </provider>
     </entry>

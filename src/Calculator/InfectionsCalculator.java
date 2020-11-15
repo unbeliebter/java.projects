@@ -33,14 +33,20 @@ public class InfectionsCalculator {
 
         double intensivePatients;
         double intensiveOnRespirator;
-        double healedPatients;
-        double[] counter = new double[14];
+        double healedPatients = 0;
+        double[] counter = new double[time];
 
         for (int i = 0; i < time; i++) {
             infectionNumber = infectionNumber * reproductionNumber;
             intensivePatients = (infectionNumber / 100) * 1.7;
             intensiveOnRespirator = intensivePatients / 2;
-            System.out.println("Day: " + i + " | Infections: " + (int) infectionNumber + " | intensivePatients: " + (int) intensivePatients + " | on O²: " + (int) intensiveOnRespirator);
+            counter[i] = infectionNumber;
+
+            if (i > 13) {
+               healedPatients = counter[i - 14];
+            }
+
+            System.out.println("Day: " + i + " | Infections: " + (int) infectionNumber + " | intensivePatients: " + (int) intensivePatients + " | on O²: " + (int) intensiveOnRespirator + " | Healed: " + (int) healedPatients);
         }
 
 
