@@ -7,12 +7,12 @@ public class Vektorberechnung {
     
     Scanner scanner = new Scanner(System.in); 
     
-    System.out.println("Gebe den ersten abi2012.Vektor an!");
+    System.out.println("Gebe den ersten Vektor an!");
     double x1 = scanner.nextDouble(); 
     double x2 = scanner.nextDouble(); 
     double x3 = scanner.nextDouble(); 
     
-    System.out.println("Gebe den zweiten abi2012.Vektor an!");
+    System.out.println("Gebe den zweiten Vektor an!");
     double y1 = scanner.nextDouble(); 
     double y2 = scanner.nextDouble(); 
     double y3 = scanner.nextDouble();
