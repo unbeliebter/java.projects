@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java" afterDir="false" />
     </list>
     <list id="af875ae6-0371-4103-99a2-b3dd3f5e249f" name="L" comment="L">
       <change afterPath="$PROJECT_DIR$/../school.spg/.idea/vcs.xml" afterDir="false" />
@@ -22,15 +21,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/homework/KgV.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testRandom/CalculatorGrades.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -40,13 +30,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java">
+        <entry file="file://$PROJECT_DIR$/src/pandemicCalculator/InfectionsCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="62" column="48" lean-forward="true" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
+            <state relative-caret-position="1207">
+              <caret line="71" column="69" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pandemicCalculator/InfectionsCalculatorJFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -159,6 +158,7 @@
         <option value="$PROJECT_DIR$/src/rekursion/rekursion.java" />
         <option value="$PROJECT_DIR$/src/rekursion/Rekursion.java" />
         <option value="$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java" />
+        <option value="$PROJECT_DIR$/src/pandemicCalculator/InfectionsCalculator.java" />
       </list>
     </option>
   </component>
@@ -174,7 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -192,7 +191,7 @@
               <item name="java.projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="java.projects" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="pandemicCalculator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java.projects" type="b2602c69:ProjectViewProjectNode" />
@@ -202,6 +201,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,7 +358,8 @@
       <workItem from="1603140714747" duration="57000" />
       <workItem from="1604954720007" duration="1303000" />
       <workItem from="1605402223363" duration="2910000" />
-      <workItem from="1605439683855" duration="5383000" />
+      <workItem from="1605439683855" duration="5622000" />
+      <workItem from="1605450303447" duration="1390000" />
     </task>
     <task id="LOCAL-00001" summary="add src">
       <created>1585777779614</created>
@@ -584,11 +585,18 @@
       <option name="project" value="LOCAL" />
       <updated>1605444195484</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="renamed package and crated new project">
+      <created>1605445433269</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1605445433269</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73432000" />
+    <option name="totallyTimeSpent" value="75061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -601,9 +609,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -612,7 +619,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.22101842" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.22101842" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -648,7 +655,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add sorted projects and add a automatic answer" />
     <MESSAGE value="add package by automaticAnswers" />
     <MESSAGE value="removed package due to collisions" />
     <MESSAGE value="add icon to automaticAnswers" />
@@ -673,7 +679,8 @@
     <MESSAGE value="implemented BigDecimal" />
     <MESSAGE value="changes in logic and add active infections" />
     <MESSAGE value="some code improvements and new output" />
-    <option name="LAST_COMMIT_MESSAGE" value="some code improvements and new output" />
+    <MESSAGE value="renamed package and crated new project" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed package and crated new project" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/JFrameSkytale.java" />
@@ -822,10 +829,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/pandemicCalculator/InfectionsCalculatorJFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="62" column="48" lean-forward="true" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
+        <state relative-caret-position="34">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pandemicCalculator/InfectionsCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="69" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
