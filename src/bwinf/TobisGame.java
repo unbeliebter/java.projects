@@ -22,10 +22,7 @@ public class TobisGame {
 
                 player[i][i] = Integer.parseInt(reader.readLine());
             }
-
-            int[] ligaWinProbabilatiy = new int[] {liga(player, playerNumber)};
-            System.out.println(ligaWinProbabilatiy[0]);
-
+            
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -37,10 +34,6 @@ public class TobisGame {
         int j = 0;
 
         for (int i = 0; i != playerNumber-1; i++) {
-
-            randomNumber[0] = player[i][j] + player[i+1][j+1];
-            int randomNumberInt = randomNumber[0];
-            int number = (int) Math.round(Math.random()*randomNumberInt);
 
             if (number > player[i][j]) {
           //      player[i+1][j+1] =
