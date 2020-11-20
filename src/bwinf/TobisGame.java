@@ -132,4 +132,4 @@ public class TobisGame {
     }
 }
 
-//H:\java.projects\src\bwinf\spielstaerken.txt
+//H:\java.projects\src\bwinf\spielstaerken1.txt
