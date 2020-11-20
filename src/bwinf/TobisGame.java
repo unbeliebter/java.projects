@@ -32,14 +32,13 @@ public class TobisGame {
             e.printStackTrace();
         }
 
-        for (int i = 0; i < repetitions; i++) {
-            liga(players);
+        liga(players,repetitions);
 
-        }
+
 
     }
 
-    public static void liga(ArrayList players) {
+    public static void liga(ArrayList players, int repetitions) {
 
         ArrayList<String> wins = new ArrayList<>();
 
@@ -56,35 +55,39 @@ public class TobisGame {
         int playerPositionTwo;
         int winNumber;
 
-        for (int i = 0; i < players.size(); i++) {
-            playerOne = players.get(i);
-            strengthOfPlayerOne = Integer.valueOf((String) playerOne);
-            playerPositionOne = i;
+        for (int k = 0; k < repetitions; k++) {
 
-            for (int j = 0; j < players.size(); j++) {
-                playerTwo = players.get(j);
-                strengthOfPlayerTwo = Integer.valueOf((String) playerTwo);
-                playerPositionTwo = j;
+            for (int i = 0; i < players.size(); i++) {
+                playerOne = players.get(i);
+                strengthOfPlayerOne = Integer.valueOf((String) playerOne);
+                playerPositionOne = i;
 
-                double randomNumber = Math.random()*(strengthOfPlayerOne + strengthOfPlayerTwo);
+                for (int j = 0; j < players.size(); j++) {
+                    playerTwo = players.get(j);
+                    strengthOfPlayerTwo = Integer.valueOf((String) playerTwo);
+                    playerPositionTwo = j;
 
-                if (randomNumber < strengthOfPlayerTwo) {
-                    winNumber = Integer.parseInt(wins.get(playerPositionOne)) + 1;
-                    wins.set(playerPositionOne, Integer.toString(winNumber));
-                } else if (randomNumber > strengthOfPlayerOne) {
-                    winNumber = Integer.parseInt(wins.get(playerPositionTwo)) + 1;
-                    wins.set(playerPositionTwo, Integer.toString(winNumber));
+                    double randomNumber = Math.random() * (strengthOfPlayerOne + strengthOfPlayerTwo);
+
+                    if (randomNumber < strengthOfPlayerTwo) {
+                        winNumber = Integer.parseInt(wins.get(playerPositionOne)) + 1;
+                        wins.set(playerPositionOne, Integer.toString(winNumber));
+                    } else if (randomNumber > strengthOfPlayerOne) {
+                        winNumber = Integer.parseInt(wins.get(playerPositionTwo)) + 1;
+                        wins.set(playerPositionTwo, Integer.toString(winNumber));
+                    }
+
                 }
-
             }
+            String winnerOfLiga = Collections.max(wins);
+            int winner = wins.indexOf(winnerOfLiga);
+
+            System.out.println("WINNER:" + winner);
+
+            System.out.println(wins + " | " + players);
         }
-        String winnerOfLiga = Collections.max(wins);
-        int winner = wins.indexOf(winnerOfLiga) + 1;
-
-        System.out.println("WINNER:" + winner);
-
-        System.out.println(wins + " | " + players);
     }
+
 }
 
 //H:\java.projects\src\bwinf\spielstaerken.txt
