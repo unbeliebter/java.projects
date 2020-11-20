@@ -12,11 +12,11 @@ public class TobisGame {
 
         ArrayList<String> players = new ArrayList<>();
 
-        System.out.println("Gebe Pfad ein:");
+        System.out.println("→ Gebe Pfad der Datei an:");
         Scanner scanner = new Scanner(System.in);
         String path = scanner.nextLine();
 
-        System.out.println("Wiederholungen:");
+        System.out.println("→ Wiederholungen: (für die Liga-Variante)");
         int repetitions = scanner.nextInt();
 
         try {
@@ -37,11 +37,16 @@ public class TobisGame {
         int resultCompetetive = competetiveSystem(players);
 
         if (resultLiga < resultCompetetive) {
-            System.out.println("In diesem Fall ist die K.O.-Variante bessser, um die Stärken zu ermitteln!");
+            System.out.println("____________________________________________________" + "\n" +
+                    "In diesem Fall ist die K.O.-Variante bessser, um die Stärken zu ermitteln." + "\n" +
+                    "Der Gewinner ist der Spieler mit der Stärke " + resultCompetetive + "." + "\n" +
+                    "____________________________________________________");
         } else {
-            System.out.println("In diesem Fall ist die Liga-Variante besser, um die Stärken zu ermitteln");
+            System.out.println("____________________________________________________" + "\n" +
+                    "In diesem Fall ist die Liga-Variante besser, um die Stärken zu ermitteln." + "\n" +
+                    "Der Gewinner ist der Spieler mit der Stärke " + resultLiga + "." + "\n" +
+                    "____________________________________________________");
         }
-
     }
 
     public static Object liga(ArrayList players, int repetitions) {
@@ -49,7 +54,7 @@ public class TobisGame {
         ArrayList<String> wins = new ArrayList<>();
 
         for (int i = 0; i < players.size(); i++) {
-            wins.add(i, "1");
+            wins.add(i, "0");
 
         }
 
@@ -83,16 +88,10 @@ public class TobisGame {
                         winNumber = Integer.parseInt(wins.get(playerPositionTwo)) + 1;
                         wins.set(playerPositionTwo, Integer.toString(winNumber));
                     }
-
                 }
             }
             String winnerOfLiga = Collections.max(wins);
             winner = wins.indexOf(winnerOfLiga);
-
-            System.out.println("WINNER:" + winner);
-
-            System.out.println(wins + " | " + players);
-
         }
         return players.get(winner);
     }
@@ -121,7 +120,6 @@ public class TobisGame {
             } else if (randomNumber > strengthOfPlayerOne) {
                 players.remove(counter+1);
             }
-            System.out.println(players);
 
             if (counter > players.size()) {
                 counter = 0;

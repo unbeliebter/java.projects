@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="implemented competetive system">
+    <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bwinf/TobisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bwinf/TobisGame.java" afterDir="false" />
     </list>
@@ -33,23 +33,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bwinf/TobisGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+            <state relative-caret-position="552">
+              <caret line="138" column="2" lean-forward="true" selection-start-line="138" selection-start-column="2" selection-end-line="138" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bwinf/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-              <folding>
-                <element signature="e#103#104#0" expanded="true" />
-                <element signature="e#138#139#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -367,7 +354,7 @@
       <workItem from="1605439683855" duration="5622000" />
       <workItem from="1605450303447" duration="1390000" />
       <workItem from="1605814080945" duration="959000" />
-      <workItem from="1605899421830" duration="12662000" />
+      <workItem from="1605899421830" duration="13364000" />
     </task>
     <task id="LOCAL-00001" summary="add src">
       <created>1585777779614</created>
@@ -649,11 +636,25 @@
       <option name="project" value="LOCAL" />
       <updated>1605907581275</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="fixed bugs in competetive system">
+      <created>1605912232446</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1605912232446</updated>
+    </task>
+    <task id="LOCAL-00042" summary="deleted Player.java">
+      <created>1605912266926</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1605912266926</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88682000" />
+    <option name="totallyTimeSpent" value="89384000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -713,8 +714,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add ForestRekursive" />
-    <MESSAGE value="cant do the recursive things" />
     <MESSAGE value="improved code quality" />
     <MESSAGE value="add InfectionsCalculator" />
     <MESSAGE value="add Scanner in InfectionCalculator" />
@@ -738,7 +737,9 @@
     <MESSAGE value="implemented liga system" />
     <MESSAGE value="implemented repetitions" />
     <MESSAGE value="implemented competetive system" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented competetive system" />
+    <MESSAGE value="fixed bugs in competetive system" />
+    <MESSAGE value="deleted Player.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted Player.java" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/JFrameSkytale.java" />
@@ -911,8 +912,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bwinf/TobisGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+        <state relative-caret-position="552">
+          <caret line="138" column="2" lean-forward="true" selection-start-line="138" selection-start-column="2" selection-end-line="138" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
