@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bwinf/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bwinf/TobisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bwinf/TobisGame.java" afterDir="false" />
     </list>
@@ -33,11 +34,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bwinf/TobisGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+            <state relative-caret-position="246">
+              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#418#434#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,14 +46,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bwinf/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="119">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#103#104#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,7 +153,6 @@
         <option value="$PROJECT_DIR$/src/DanielHopsNehmen/FinancialCalculator.java" />
         <option value="$PROJECT_DIR$/src/testRandom/CalculatorGrades.java" />
         <option value="$PROJECT_DIR$/src/bwinf/spielstaerken.txt" />
-        <option value="$PROJECT_DIR$/src/bwinf/Player.java" />
         <option value="$PROJECT_DIR$/src/homework/StringArray.java" />
         <option value="$PROJECT_DIR$/src/homework/Forestz.java" />
         <option value="$PROJECT_DIR$/src/homework/Forest.java" />
@@ -168,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/Calculator/InfectionsCalculator.java" />
         <option value="$PROJECT_DIR$/src/pandemicCalculator/InfectionsCalculator.java" />
         <option value="$PROJECT_DIR$/src/abi2012/Vektorberechnung.java" />
+        <option value="$PROJECT_DIR$/src/bwinf/Player.java" />
         <option value="$PROJECT_DIR$/src/bwinf/TobisGame.java" />
       </list>
     </option>
@@ -371,7 +368,7 @@
       <workItem from="1605439683855" duration="5622000" />
       <workItem from="1605450303447" duration="1390000" />
       <workItem from="1605814080945" duration="959000" />
-      <workItem from="1605899421830" duration="1193000" />
+      <workItem from="1605899421830" duration="6456000" />
     </task>
     <task id="LOCAL-00001" summary="add src">
       <created>1585777779614</created>
@@ -625,11 +622,18 @@
       <option name="project" value="LOCAL" />
       <updated>1605814555751</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="deleted Player.java and do some changes in TobisGame">
+      <created>1605900679262</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1605900679262</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77213000" />
+    <option name="totallyTimeSpent" value="82476000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -642,6 +646,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -688,7 +693,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add FinancialCalculator &amp; OOP" />
     <MESSAGE value="add homework" />
     <MESSAGE value="add HeronProceed code" />
     <MESSAGE value="deleted FinancialCalculator" />
@@ -713,7 +717,8 @@
     <MESSAGE value="new package" />
     <MESSAGE value="Merge branch 'master' of https://github.com/unbeliebter/java.projects" />
     <MESSAGE value="changes of messages by vectors" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes of messages by vectors" />
+    <MESSAGE value="deleted Player.java and do some changes in TobisGame" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted Player.java and do some changes in TobisGame" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/JFrameSkytale.java" />
@@ -866,20 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bwinf/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bwinf/spielstaerken.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -887,13 +878,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/bwinf/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/bwinf/TobisGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        <state relative-caret-position="246">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#418#434#0" expanded="true" />
           </folding>
         </state>
       </provider>
