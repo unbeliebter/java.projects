@@ -84,6 +84,7 @@ public class TobisGame {
                     if (randomNumber < strengthOfPlayerTwo) {
                         winNumber = Integer.parseInt(wins.get(playerPositionOne)) + 1;
                         wins.set(playerPositionOne, Integer.toString(winNumber));
+
                     } else if (randomNumber > strengthOfPlayerOne) {
                         winNumber = Integer.parseInt(wins.get(playerPositionTwo)) + 1;
                         wins.set(playerPositionTwo, Integer.toString(winNumber));
@@ -131,5 +132,3 @@ public class TobisGame {
         return winNumber;
     }
 }
-
-//H:\java.projects\src\bwinf\spielstaerken1.txt
