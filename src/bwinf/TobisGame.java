@@ -32,17 +32,24 @@ public class TobisGame {
             e.printStackTrace();
         }
 
-        liga(players,repetitions);
-        competetiveSystem(players, repetitions);
+        Object resultLigaObj = liga(players,repetitions);
+        int resultLiga = Integer.valueOf((String) resultLigaObj);
+        int resultCompetetive = competetiveSystem(players);
+
+        if (resultLiga < resultCompetetive) {
+            System.out.println("In diesem Fall ist die K.O.-Variante bessser, um die Stärken zu ermitteln!");
+        } else {
+            System.out.println("In diesem Fall ist die Liga-Variante besser, um die Stärken zu ermitteln");
+        }
 
     }
 
-    public static void liga(ArrayList players, int repetitions) {
+    public static Object liga(ArrayList players, int repetitions) {
 
         ArrayList<String> wins = new ArrayList<>();
 
         for (int i = 0; i < players.size(); i++) {
-            wins.add(i, "0");
+            wins.add(i, "1");
 
         }
 
@@ -53,6 +60,7 @@ public class TobisGame {
         int playerPositionOne;
         int playerPositionTwo;
         int winNumber;
+        int winner = 0;
 
         for (int k = 0; k < repetitions; k++) {
 
@@ -79,48 +87,51 @@ public class TobisGame {
                 }
             }
             String winnerOfLiga = Collections.max(wins);
-            int winner = wins.indexOf(winnerOfLiga);
+            winner = wins.indexOf(winnerOfLiga);
 
             System.out.println("WINNER:" + winner);
 
             System.out.println(wins + " | " + players);
+
         }
+        return players.get(winner);
     }
 
-    public static void competetiveSystem(ArrayList players, int repetitions) {
+    public static int competetiveSystem(ArrayList players) {
 
         Object playerOne;
         Object playerTwo;
+        Object winningPlayer;
         int strengthOfPlayerOne;
         int strengthOfPlayerTwo;
         int counter = 0;
+        int winNumber;
 
-        for (int k = 0; k < repetitions; k++) {
+        while (1 < players.size()) {
+            playerOne = players.get(counter);
+            strengthOfPlayerOne = Integer.valueOf((String) playerOne);
 
-            while (1 < players.size()) {
-                playerOne = players.get(counter);
-                strengthOfPlayerOne = Integer.valueOf((String) playerOne);
+            playerTwo = players.get(counter + 1);
+            strengthOfPlayerTwo = Integer.valueOf((String) playerTwo);
 
-                playerTwo = players.get(counter + 1);
-                strengthOfPlayerTwo = Integer.valueOf((String) playerTwo);
+            double randomNumber = Math.random() * (strengthOfPlayerOne + strengthOfPlayerTwo);
 
-                double randomNumber = Math.random() * (strengthOfPlayerOne + strengthOfPlayerTwo);
-
-                if (randomNumber < strengthOfPlayerTwo) {
-                    players.remove(counter);
-                } else if (randomNumber > strengthOfPlayerOne) {
-                    players.remove(counter+1);
-                }
-                System.out.println(players);
-
-                if (counter > players.size()) {
-                    counter = 0;
-                }
-
+            if (randomNumber < strengthOfPlayerTwo) {
+                players.remove(counter);
+            } else if (randomNumber > strengthOfPlayerOne) {
+                players.remove(counter+1);
             }
-        }
-    }
+            System.out.println(players);
 
+            if (counter > players.size()) {
+                counter = 0;
+            }
+
+        }
+        winningPlayer = players;
+        winNumber = Integer.parseInt(winningPlayer.toString().replace("[", "" ).replace("]", ""));
+        return winNumber;
+    }
 }
 
 //H:\java.projects\src\bwinf\spielstaerken.txt
