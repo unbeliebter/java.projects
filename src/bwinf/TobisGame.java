@@ -3,6 +3,7 @@ package bwinf;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class TobisGame {
@@ -12,43 +13,21 @@ public class TobisGame {
         Scanner scanner = new Scanner(System.in);
         String path = scanner.nextLine();
 
-        try{
+        HashMap<String, String> players = new HashMap<String, String>();
+
+        try {
             BufferedReader reader = new BufferedReader(new FileReader(path));
 
-            int playerNumber = Integer.parseInt(reader.readLine());
-            int[][] player = new int[playerNumber][playerNumber];
+            int amountofPlayers = Integer.parseInt(reader.readLine());
 
-            for (int i = 0; playerNumber != i; i++) {
+            for (int i = 0; amountofPlayers != i; i++) {
 
-                player[i][i] = Integer.parseInt(reader.readLine());
+                players.put(Integer.toString(i), reader.readLine());
             }
             
         } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println(players);
     }
-
-    public static int liga (int[][] player, int playerNumber) {
-
-        int[] randomNumber = new int[playerNumber];
-        int j = 0;
-
-        for (int i = 0; i != playerNumber-1; i++) {
-
-            if (number > player[i][j]) {
-          //      player[i+1][j+1] =
-            }
-
-            System.out.println(number);
-        }
-
-
-
-        return 1;
-
-    }
-
-
-
-
 }
