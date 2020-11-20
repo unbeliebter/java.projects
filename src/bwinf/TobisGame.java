@@ -33,8 +33,7 @@ public class TobisGame {
         }
 
         liga(players,repetitions);
-
-
+        competetiveSystem(players, repetitions);
 
     }
 
@@ -47,8 +46,8 @@ public class TobisGame {
 
         }
 
-        Object playerOne = "";
-        Object playerTwo = "";
+        Object playerOne;
+        Object playerTwo;
         int strengthOfPlayerOne;
         int strengthOfPlayerTwo;
         int playerPositionOne;
@@ -85,6 +84,40 @@ public class TobisGame {
             System.out.println("WINNER:" + winner);
 
             System.out.println(wins + " | " + players);
+        }
+    }
+
+    public static void competetiveSystem(ArrayList players, int repetitions) {
+
+        Object playerOne;
+        Object playerTwo;
+        int strengthOfPlayerOne;
+        int strengthOfPlayerTwo;
+        int counter = 0;
+
+        for (int k = 0; k < repetitions; k++) {
+
+            while (1 < players.size()) {
+                playerOne = players.get(counter);
+                strengthOfPlayerOne = Integer.valueOf((String) playerOne);
+
+                playerTwo = players.get(counter + 1);
+                strengthOfPlayerTwo = Integer.valueOf((String) playerTwo);
+
+                double randomNumber = Math.random() * (strengthOfPlayerOne + strengthOfPlayerTwo);
+
+                if (randomNumber < strengthOfPlayerTwo) {
+                    players.remove(counter);
+                } else if (randomNumber > strengthOfPlayerOne) {
+                    players.remove(counter+1);
+                }
+                System.out.println(players);
+
+                if (counter > players.size()) {
+                    counter = 0;
+                }
+
+            }
         }
     }
 
