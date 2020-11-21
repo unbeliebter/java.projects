@@ -26,7 +26,15 @@ public class WoerterAufraeumen {
             e.printStackTrace();
         }
         findWords(searchLine, words);
-        System.out.println(finalText);
+
+        String output = "_________________________________________________________________________________" + "\n" +
+                "Lückentext: " + searchLine + "\n" +
+                "Wörter: " + words + "\n" +
+                "_________________________________________________________________________________" + "\n" +
+                "Lösung: " + finalText + "\n" +
+                "_________________________________________________________________________________";
+
+        System.out.println(output);
 
     }
 
@@ -36,81 +44,80 @@ public class WoerterAufraeumen {
         int lengthOfSearchedWord;
         int lengthOfWord;
 
-        for (int i=0; i<searchedWord.length; i++) {
+        for (int i = 0; i < searchedWord.length; i++) {
             String[] searchedWordLetters = searchedWord[i].split("");
             lengthOfSearchedWord = countMissingChars(searchedWord[i]);
 
-            int[] posOfLetter = searchLetters(searchedWordLetters, lengthOfSearchedWord, "^[a-zA-Z]*$");
+            int[] positionOfLetter = searchLetters(searchedWordLetters, lengthOfSearchedWord, "^[a-zA-Z]*$");
 
-            for (int j=0; j< word.length; j++) {
+            for (int j = 0; j < word.length; j++) {
                 String[] wordLetters = word[j].split("");
                 lengthOfWord = wordLetters.length;
 
-                if (lengthOfWord == lengthOfSearchedWord) {
-                    if (posOfLetter[0] >= 0) {
-                        for (int pos : posOfLetter) {
-                            if (wordLetters[pos].equalsIgnoreCase(searchedWordLetters[pos])) {
+                if (lengthOfWord == lengthOfSearchedWord && positionOfLetter[0] >= 0) {
+                        for (int position : positionOfLetter) {
+                            if (wordLetters[position].equalsIgnoreCase(searchedWordLetters[position])) {
                                 replaceInFinalText(word[j], i);
                             }
                         }
-                    }else {
-                        if (lengthOfSearchedWord == lengthOfWord) {
+                    } else if (lengthOfSearchedWord == lengthOfWord) {
                             replaceInFinalText(word[j], i);
                             break;
-                        }
-                    }
                 }
             }
         }
-
     }
 
-    public static int[] searchLetters(String[] word, int length, String regex){
-        int[] positions = new int[length+1];
+    public static int[] searchLetters(String[] word, int length, String regexString) {
+        int[] positions = new int[length + 1];
         positions[0] = -1;
-        int i = 0;
-        int pos = 0;
-        for (String letter : word){
-            if (letter.matches(regex)) {
-                positions[i] = pos;
-                i++;
+
+        int counter = 0;
+        int position = 0;
+
+        for (String letter : word) {
+            if (letter.matches(regexString)) {
+                positions[counter] = position;
+                counter++;
             }
-            pos++;
+            position++;
         }
         return positions;
     }
 
-    public static void setFinalText(String text){
-        finalText =  text;
-    }
+    public static int countMissingChars(String word) {
+        int counter = 0;
+        String[] charString = word.split("");
 
-    public static int countMissingChars(String word){
-        int count = 0;
-        String[] chars = word.split("");
-        for (int i=0; i<chars.length; i++) {
-            if (chars[i].matches("^[a-zA-Z]*$") || chars[i].equals("_")) {
-                count++;
+        for (int i = 0; i < charString.length; i++) {
+            if (charString[i].matches("^[a-zA-Z]*$") || charString[i].equals("_")) {
+                counter++;
             }
         }
-        return count;
+        return counter;
     }
 
     public static void replaceInFinalText(String newText, int pos){
         String text = finalText;
         String[] oldText = finalText.split(" ");
-        boolean specialCharacter = oldText[pos].length() == newText.split("").length;
+        boolean specialCharacter;
 
-        if (!specialCharacter){
-            String[] character = oldText[pos].split("");
-            int[] positions = searchLetters(character, character.length,"[,.;:!?]");
-            newText = newText + character[positions[0]];
-            text = text.replaceAll(oldText[pos], newText);
-        }else{
-            text = text.replaceAll(oldText[pos], newText);
+        if (oldText[pos].length() == newText.split("").length) {
+            specialCharacter = true;
+        } else {
+            specialCharacter = false;
         }
 
-        setFinalText(text);
-    }
+        if (!specialCharacter) {
+            String[] character = oldText[pos].split("");
+            int[] positions = searchLetters(character, character.length,"[,.;:!?]");
 
+            newText = newText + character[positions[0]];
+            text = text.replaceAll(oldText[pos], newText);
+        } else {
+            text = text.replaceAll(oldText[pos], newText);
+        }
+        finalText = text;
+    }
 }
 //H:\java.projects\src\bwinf\Woerter\raetsel0.txt
