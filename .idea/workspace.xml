@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bwinf/Woerter/raetsel0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bwinf/woerterAufraeumen/WoerterAufraeumen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwinf/woerterAufraeumen/WoerterAufraeumen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bwinf/woerterAufraeumen/WoerterAufraeumen.java" afterDir="false" />
     </list>
     <list id="af875ae6-0371-4103-99a2-b3dd3f5e249f" name="L" comment="L">
       <change afterPath="$PROJECT_DIR$/../school.spg/.idea/vcs.xml" afterDir="false" />
@@ -64,12 +62,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bwinf/woerterAufraeumen/WoerterAufraeumen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            <state relative-caret-position="909">
+              <caret line="112" column="40" lean-forward="true" selection-start-line="112" selection-start-column="40" selection-end-line="112" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2578#2579#0" expanded="true" />
-                <element signature="e#2611#2612#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bwinf/Woerter/ReadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            <state relative-caret-position="357">
+              <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="83" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/src/bwinf/Woerter/raetsel0.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -133,6 +129,10 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setFinalText</find>
+      <find>countMissingChars</find>
+    </findStrings>
     <dirStrings>
       <dir>H:\java.projects\src\automaticAnswers</dir>
     </dirStrings>
@@ -423,21 +423,7 @@
       <workItem from="1605955487818" duration="1010000" />
       <workItem from="1605960661246" duration="3310000" />
       <workItem from="1605969572466" duration="623000" />
-      <workItem from="1605981881192" duration="3397000" />
-    </task>
-    <task id="LOCAL-00004" summary="add JFrameSkytale">
-      <created>1589561124155</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1589561124155</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add AutomaticAnswers.java">
-      <created>1589580712622</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1589580712623</updated>
+      <workItem from="1605981881192" duration="7042000" />
     </task>
     <task id="LOCAL-00006" summary="add one automatic answer">
       <created>1589583090116</created>
@@ -768,11 +754,25 @@
       <option name="project" value="LOCAL" />
       <updated>1605982125755</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="get the fuck running">
+      <created>1605989203763</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1605989203763</updated>
+    </task>
+    <task id="LOCAL-00054" summary="code improvements">
+      <created>1605994220017</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1605994220017</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99582000" />
+    <option name="totallyTimeSpent" value="103227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -787,7 +787,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2867804" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2867804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -796,7 +796,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.22101842" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49626866" visible="true" weight="0.22101842" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -805,8 +805,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.30877572" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50319827" side_tool="true" visible="true" weight="0.22101842" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49840087" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50373137" side_tool="true" visible="true" weight="0.22101842" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4978678" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -832,8 +832,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add healed persons" />
-    <MESSAGE value="start changing the variables to BigDecimal" />
     <MESSAGE value="implemented BigDecimal" />
     <MESSAGE value="changes in logic and add active infections" />
     <MESSAGE value="some code improvements and new output" />
@@ -857,7 +855,9 @@
     <MESSAGE value="implemented third passwordGenMethod" />
     <MESSAGE value="improved output &amp; final version" />
     <MESSAGE value="add Woerter package with some code" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Woerter package with some code" />
+    <MESSAGE value="get the fuck running" />
+    <MESSAGE value="code improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="code improvements" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/JFrameSkytale.java" />
@@ -1030,13 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bwinf/Woerter/raetsel0.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bwinf/tobisGame/TobisGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1047,13 +1040,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bwinf/Woerter/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bwinf/Woerter/Dialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -1061,10 +1047,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/bwinf/Woerter/raetsel0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bwinf/Woerter/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/bwinf/Woerter/ReadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="357">
+          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="83" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1073,12 +1073,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bwinf/woerterAufraeumen/WoerterAufraeumen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        <state relative-caret-position="909">
+          <caret line="112" column="40" lean-forward="true" selection-start-line="112" selection-start-column="40" selection-end-line="112" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2578#2579#0" expanded="true" />
-            <element signature="e#2611#2612#0" expanded="true" />
           </folding>
         </state>
       </provider>
