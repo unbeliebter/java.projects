@@ -9,7 +9,10 @@ public class password {
         System.out.println("Gebe für die erste Methode und zweite Methode deines Passwortes Wörter an");
         String words = scanner.nextLine();
 
-        String output = passwordGenFirst(words) + " " + passwordGenSecond(words);
+        System.out.println("Geben sie die Länge des Passworts an für die dritte Methode");
+        int length = scanner.nextInt();
+
+        String output = passwordGenFirst(words) + " " + passwordGenSecond(words) + " " + passwordGenThird(length);
         System.out.println(output);
     }
 
@@ -22,7 +25,6 @@ public class password {
         words = words.replace("i", "!");
 
         return words;
-
     }
 
     public static String passwordGenSecond(String words) {
@@ -33,5 +35,27 @@ public class password {
         words = words.replace("i", "#");
 
         return words;
+    }
+
+    public static String passwordGenThird(int length) {
+        String[] konsonanten = {"b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"};
+        String[] vokale = {"a", "e", "i", "o", "u"};
+        String password;
+        String passwordFinal = "";
+        int number;
+
+        for (int i = 0; i < length; i++) {
+            if (i % 2 == 0) {
+                number =  (int) Math.round(Math.random()*20);
+                System.out.println(number);
+                password = konsonanten[number];
+                System.out.println("PS:" + password);
+            } else {
+                number =  (int) Math.round(Math.random()*4);
+                password = vokale[number];
+            }
+            passwordFinal = passwordFinal + "" + password;
+        }
+        return passwordFinal;
     }
 }
