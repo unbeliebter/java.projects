@@ -25,7 +25,7 @@ public class WoerterAufraeumen {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        findWords(searchLine, words);
+        identifyWords(searchLine, words);
 
         String output = "_________________________________________________________________________________" + "\n" +
                 "Lückentext: " + searchLine + "\n" +
@@ -38,7 +38,7 @@ public class WoerterAufraeumen {
 
     }
 
-    public static void findWords(String searchLine, String words) {
+    public static void identifyWords(String searchLine, String words) {
         String[] searchedWord = searchLine.split(" ");
         String[] word = words.split(" ");
         int lengthOfSearchedWord;
@@ -46,9 +46,9 @@ public class WoerterAufraeumen {
 
         for (int i = 0; i < searchedWord.length; i++) {
             String[] searchedWordLetters = searchedWord[i].split("");
-            lengthOfSearchedWord = countMissingChars(searchedWord[i]);
+            lengthOfSearchedWord = counterOfMissingChars(searchedWord[i]);
 
-            int[] positionOfLetter = searchLetters(searchedWordLetters, lengthOfSearchedWord, "^[a-zA-Z]*$");
+            int[] positionOfLetter = searchingForLetters(searchedWordLetters, lengthOfSearchedWord, "^[a-zA-Z]*$");
 
             for (int j = 0; j < word.length; j++) {
                 String[] wordLetters = word[j].split("");
@@ -57,18 +57,18 @@ public class WoerterAufraeumen {
                 if (lengthOfWord == lengthOfSearchedWord && positionOfLetter[0] >= 0) {
                         for (int position : positionOfLetter) {
                             if (wordLetters[position].equalsIgnoreCase(searchedWordLetters[position])) {
-                                replaceInFinalText(word[j], i);
+                                finalTextCreator(word[j], i);
                             }
                         }
                     } else if (lengthOfSearchedWord == lengthOfWord) {
-                            replaceInFinalText(word[j], i);
+                            finalTextCreator(word[j], i);
                             break;
                 }
             }
         }
     }
 
-    public static int[] searchLetters(String[] word, int length, String regexString) {
+    public static int[] searchingForLetters(String[] word, int length, String regexString) {
         int[] positions = new int[length + 1];
         positions[0] = -1;
 
@@ -85,7 +85,7 @@ public class WoerterAufraeumen {
         return positions;
     }
 
-    public static int countMissingChars(String word) {
+    public static int counterOfMissingChars(String word) {
         int counter = 0;
         String[] charString = word.split("");
 
@@ -97,25 +97,25 @@ public class WoerterAufraeumen {
         return counter;
     }
 
-    public static void replaceInFinalText(String newText, int pos){
+    public static void finalTextCreator(String newText, int position){
         String text = finalText;
         String[] oldText = finalText.split(" ");
         boolean specialCharacter;
 
-        if (oldText[pos].length() == newText.split("").length) {
+        if (oldText[position].length() == newText.split("").length) {
             specialCharacter = true;
         } else {
             specialCharacter = false;
         }
 
         if (!specialCharacter) {
-            String[] character = oldText[pos].split("");
-            int[] positions = searchLetters(character, character.length,"[,.;:!?]");
+            String[] character = oldText[position].split("");
+            int[] positions = searchingForLetters(character, character.length,"[,.;:!?]");
 
             newText = newText + character[positions[0]];
-            text = text.replaceAll(oldText[pos], newText);
+            text = text.replaceAll(oldText[position], newText);
         } else {
-            text = text.replaceAll(oldText[pos], newText);
+            text = text.replaceAll(oldText[position], newText);
         }
         finalText = text;
     }
