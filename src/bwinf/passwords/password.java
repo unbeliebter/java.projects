@@ -12,7 +12,12 @@ public class password {
         System.out.println("Geben sie die Länge des Passworts an für die dritte Methode");
         int length = scanner.nextInt();
 
-        String output = passwordGenFirst(words) + " " + passwordGenSecond(words) + " " + passwordGenThird(length);
+        String output = "____________________________________________________________" + "\n" +
+                "Erstes Passwort: " + passwordGenFirst(words)  + "\n" +
+                "Zweites Passwort: " +  passwordGenSecond(words)  + "\n" +
+                "Drittes Passwort: " + passwordGenThird(length)  + "\n" +
+                "____________________________________________________________";
+
         System.out.println(output);
     }
 
@@ -47,9 +52,7 @@ public class password {
         for (int i = 0; i < length; i++) {
             if (i % 2 == 0) {
                 number =  (int) Math.round(Math.random()*20);
-                System.out.println(number);
                 password = konsonanten[number];
-                System.out.println("PS:" + password);
             } else {
                 number =  (int) Math.round(Math.random()*4);
                 password = vokale[number];
