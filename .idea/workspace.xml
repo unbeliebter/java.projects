@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bwinf/baulwuerfe/baulwuerfe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bwinf/passwords/password.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bwinf/TobisGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bwinf/spielstaerken1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bwinf/spielstaerken2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bwinf/spielstaerken3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bwinf/spielstaerken4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwinf/passwords/password.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bwinf/passwords/password.java" afterDir="false" />
     </list>
     <list id="af875ae6-0371-4103-99a2-b3dd3f5e249f" name="L" comment="L">
       <change afterPath="$PROJECT_DIR$/../school.spg/.idea/vcs.xml" afterDir="false" />
@@ -36,16 +30,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bwinf/passwords/password.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bwinf/baulwuerfe/baulwuerfe.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -149,6 +143,7 @@
         <option value="$PROJECT_DIR$/src/bwinf/spielstaerken4.txt" />
         <option value="$PROJECT_DIR$/src/bwinf/tobisGame/TobisGame.java" />
         <option value="$PROJECT_DIR$/src/bwinf/TobisGame.java" />
+        <option value="$PROJECT_DIR$/src/bwinf/passwords/password.java" />
       </list>
     </option>
   </component>
@@ -164,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,7 +207,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,20 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TobisGame">
-    <configuration name="Forest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.Forest" />
-      <module name="java.projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.password">
     <configuration name="ForestRekursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.ForestRekursive" />
       <module name="java.projects" />
@@ -312,13 +294,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="password" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bwinf.passwords.password" />
+      <module name="java.projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bwinf.passwords.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.password" />
         <item itemvalue="Application.TobisGame" />
         <item itemvalue="Application.InfectionsCalculator" />
         <item itemvalue="Application.Rekursion" />
         <item itemvalue="Application.ForestRekursive" />
-        <item itemvalue="Application.Forest" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +369,8 @@
       <workItem from="1605814080945" duration="959000" />
       <workItem from="1605899421830" duration="15119000" />
       <workItem from="1605954946239" duration="103000" />
-      <workItem from="1605955487818" duration="483000" />
+      <workItem from="1605955487818" duration="1010000" />
+      <workItem from="1605960661246" duration="646000" />
     </task>
     <task id="LOCAL-00001" summary="add src">
       <created>1585777779614</created>
@@ -691,11 +687,18 @@
       <option name="project" value="LOCAL" />
       <updated>1605913779397</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="add junior exercises of bwinf">
+      <created>1605956043182</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1605956043182</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91725000" />
+    <option name="totallyTimeSpent" value="92898000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -710,7 +713,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2771855" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2803838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -719,7 +722,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.22101842" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.22101842" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -755,7 +758,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updated InfectionCalculator" />
     <MESSAGE value="done the scanning stuff" />
     <MESSAGE value="started pandemicDrawer" />
     <MESSAGE value="calculates now infections" />
@@ -780,7 +782,8 @@
     <MESSAGE value="some code improvements and output improvements" />
     <MESSAGE value="add example files" />
     <MESSAGE value="final version" />
-    <option name="LAST_COMMIT_MESSAGE" value="final version" />
+    <MESSAGE value="add junior exercises of bwinf" />
+    <option name="LAST_COMMIT_MESSAGE" value="add junior exercises of bwinf" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/JFrameSkytale.java" />
@@ -892,27 +895,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bwinf/Player.java" />
-    <entry file="file://$PROJECT_DIR$/src/bwinf/spielstaerken1.txt">
+    <entry file="file://$PROJECT_DIR$/src/bwinf/spielstaerken1.txt" />
+    <entry file="file://$PROJECT_DIR$/src/bwinf/spielstaerken2.txt" />
+    <entry file="file://$PROJECT_DIR$/src/bwinf/spielstaerken3.txt" />
+    <entry file="file://$PROJECT_DIR$/src/bwinf/spielstaerken4.txt" />
+    <entry file="file://$PROJECT_DIR$/src/bwinf/TobisGame.java" />
+    <entry file="file://$PROJECT_DIR$/src/abi2012/Vektor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bwinf/spielstaerken2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bwinf/spielstaerken3.txt">
+    <entry file="file://$PROJECT_DIR$/src/bwinf/baulwuerfe/baulwuerfe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bwinf/spielstaerken4.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -951,34 +949,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bwinf/TobisGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="120" column="36" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/abi2012/Vektor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bwinf/passwords/password.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bwinf/baulwuerfe/baulwuerfe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
