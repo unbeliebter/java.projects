@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bwinf/baulwuerfe/baulwuerfe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bwinf/baulwuerfe/baulwuerfe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bwinf/passwords/password.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bwinf/passwords/password.java" afterDir="false" />
     </list>
     <list id="af875ae6-0371-4103-99a2-b3dd3f5e249f" name="L" comment="L">
@@ -30,13 +32,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bwinf/passwords/password.java">
+        <entry file="file://$PROJECT_DIR$/src/bwinf/passwords/Password.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="57" column="58" lean-forward="true" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="476">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -51,7 +50,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bwinf/baulwuerfe/baulwuerfe.java">
+        <entry file="file://$PROJECT_DIR$/src/bwinf/baulwuerfe/Baulwuerfe.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
@@ -155,6 +154,7 @@
         <option value="$PROJECT_DIR$/src/bwinf/TobisGame.java" />
         <option value="$PROJECT_DIR$/src/bwinf/tobisGame/TobisGame.java" />
         <option value="$PROJECT_DIR$/src/bwinf/passwords/password.java" />
+        <option value="$PROJECT_DIR$/src/bwinf/baulwuerfe/Baulwuerfe.java" />
       </list>
     </option>
   </component>
@@ -170,7 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,7 +224,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +232,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/bwinf/Woerter" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -259,13 +259,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.password">
-    <configuration name="ForestRekursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.ForestRekursive" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="InfectionsCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pandemicCalculator.InfectionsCalculator" />
       <module name="java.projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.*" />
+          <option name="PATTERN" value="pandemicCalculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,12 +273,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfectionsCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pandemicCalculator.InfectionsCalculator" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bwinf.Woerter.Main" />
       <module name="java.projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pandemicCalculator.*" />
+          <option name="PATTERN" value="bwinf.Woerter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Password" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bwinf.passwords.Password" />
+      <module name="java.projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bwinf.passwords.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,26 +325,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="password" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bwinf.passwords.password" />
-      <module name="java.projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bwinf.passwords.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.password" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Password" />
         <item itemvalue="Application.TobisGame" />
         <item itemvalue="Application.InfectionsCalculator" />
         <item itemvalue="Application.Rekursion" />
-        <item itemvalue="Application.ForestRekursive" />
       </list>
     </recent_temporary>
   </component>
@@ -388,21 +388,8 @@
       <workItem from="1605899421830" duration="15119000" />
       <workItem from="1605954946239" duration="103000" />
       <workItem from="1605955487818" duration="1010000" />
-      <workItem from="1605960661246" duration="3046000" />
-    </task>
-    <task id="LOCAL-00001" summary="add src">
-      <created>1585777779614</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1585777779614</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add src">
-      <created>1585777834842</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1585777834842</updated>
+      <workItem from="1605960661246" duration="3310000" />
+      <workItem from="1605969572466" duration="623000" />
     </task>
     <task id="LOCAL-00003" summary="add Skytale">
       <created>1589560785764</created>
@@ -733,11 +720,25 @@
       <option name="project" value="LOCAL" />
       <updated>1605962185692</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="implemented third passwordGenMethod">
+      <created>1605963813381</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1605963813381</updated>
+    </task>
+    <task id="LOCAL-00051" summary="improved output &amp; final version">
+      <created>1605963948344</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1605963948344</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95298000" />
+    <option name="totallyTimeSpent" value="96185000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -750,9 +751,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2803838" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2835821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -761,7 +761,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.22101842" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" weight="0.22101842" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -770,7 +770,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.30877572" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.22101842" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026652" side_tool="true" visible="true" weight="0.22101842" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49840087" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -797,8 +797,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add rekursion as a example" />
-    <MESSAGE value="add intensive patients" />
     <MESSAGE value="add intensive patients on Respirator" />
     <MESSAGE value="add healed persons" />
     <MESSAGE value="start changing the variables to BigDecimal" />
@@ -822,7 +820,9 @@
     <MESSAGE value="implemented first passwordGenMethod" />
     <MESSAGE value="repaired import of TobisGame" />
     <MESSAGE value="implemented second passwordGenMethod" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented second passwordGenMethod" />
+    <MESSAGE value="implemented third passwordGenMethod" />
+    <MESSAGE value="improved output &amp; final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved output &amp; final version" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/JFrameSkytale.java" />
@@ -946,10 +946,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bwinf/baulwuerfe/baulwuerfe.java">
+    <entry file="file://$PROJECT_DIR$/src/bwinf/tobisGame/TobisGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -988,20 +988,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bwinf/tobisGame/TobisGame.java">
+    <entry file="file://$PROJECT_DIR$/src/bwinf/baulwuerfe/Baulwuerfe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bwinf/passwords/password.java">
+    <entry file="file://$PROJECT_DIR$/src/bwinf/passwords/Password.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="57" column="58" lean-forward="true" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="476">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
         </state>
       </provider>
     </entry>
