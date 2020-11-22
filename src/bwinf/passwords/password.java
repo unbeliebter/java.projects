@@ -6,10 +6,10 @@ public class Password {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Gebe für die erste Methode und zweite Methode deines Passwortes Wörter an");
+        System.out.println("→ Für die ersten beiden Methoden müssten mehrere Wörter angegeben werden, um ein Passwort zu generieren:");
         String words = scanner.nextLine();
 
-        System.out.println("Geben sie die Länge des Passworts an für die dritte Methode");
+        System.out.println("→ Für die dritte Methode, geben sie die Länge des Passworts an:");
         int length = scanner.nextInt();
 
         String output = "____________________________________________________________" + "\n" +
