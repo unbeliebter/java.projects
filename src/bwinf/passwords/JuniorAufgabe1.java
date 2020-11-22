@@ -2,7 +2,7 @@ package bwinf.passwords;
 
 import java.util.Scanner;
 
-public class Password {
+public class JuniorAufgabe1 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

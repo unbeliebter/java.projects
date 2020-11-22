@@ -3,7 +3,7 @@ package bwinf.woerterAufraeumen;
 import java.io.*;
 import java.util.Scanner;
 
-public class WoerterAufraeumen {
+public class Aufgabe1 {
 
     public static String finalText = "";
 
