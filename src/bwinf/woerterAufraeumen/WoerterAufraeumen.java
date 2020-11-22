@@ -97,7 +97,7 @@ public class WoerterAufraeumen {
         return counter;
     }
 
-    public static void finalTextCreator(String newText, int position){
+    public static void finalTextCreator(String newText, int position) {
         String text = finalText;
         String[] oldText = finalText.split(" ");
         boolean specialCharacter;
