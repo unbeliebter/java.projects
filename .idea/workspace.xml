@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bwinf/passwords/JuniorAufgabe1.java" afterDir="false" />
+    <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="changed names">
+      <change afterPath="$PROJECT_DIR$/src/calculator/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bwinf/passwords/password.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bwinf/tobisGame/TobisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bwinf/tobisGame/Aufgabe3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bwinf/woerterAufraeumen/WoerterAufraeumen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bwinf/woerterAufraeumen/Aufgabe1.java" afterDir="false" />
     </list>
-    <list id="af875ae6-0371-4103-99a2-b3dd3f5e249f" name="L" comment="L">
-      <change afterPath="$PROJECT_DIR$/../school.spg/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../school.spg/html/index.html" afterDir="false" />
-    </list>
+    <list id="af875ae6-0371-4103-99a2-b3dd3f5e249f" name="L" comment="L" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,19 +19,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bwinf/Woerter/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/bwinf/passwords/JuniorAufgabe1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="867">
+              <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bwinf/passwords/JuniorAufgabe1.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/calculator/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="187">
+              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+              <folding>
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bwinf/tobisGame/Aufgabe3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1556">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="170">
+              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bwinf/woerterAufraeumen/raetsel3.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -102,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bwinf/woerterAufraeumen/Aufgabe1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2074">
-              <caret line="122" column="2" selection-start-line="122" selection-start-column="2" selection-end-line="122" selection-end-column="49" />
+            <state relative-caret-position="867">
+              <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bwinf/Woerter/Dialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+            <state relative-caret-position="578">
+              <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -186,14 +190,15 @@
         <option value="$PROJECT_DIR$/src/bwinf/passwords/Password.java" />
         <option value="$PROJECT_DIR$/src/bwinf/tobisGame/spielstaerken5.txt" />
         <option value="$PROJECT_DIR$/src/bwinf/woerterAufraeumen/WoerterAufraeumen.java" />
+        <option value="$PROJECT_DIR$/src/calculator/Calculator.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="175" />
-    <option name="y" value="-23" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="41" />
+    <option name="y" value="-28" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -218,41 +223,7 @@
               <item name="java.projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="java.projects" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="abi2012" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java.projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java.projects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bwinf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java.projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java.projects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bwinf" type="462c0819:PsiDirectoryNode" />
-              <item name="passwords" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java.projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java.projects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bwinf" type="462c0819:PsiDirectoryNode" />
-              <item name="tobisGame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java.projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java.projects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bwinf" type="462c0819:PsiDirectoryNode" />
-              <item name="Woerter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java.projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java.projects" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bwinf" type="462c0819:PsiDirectoryNode" />
-              <item name="woerterAufraeumen" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java.projects" type="b2602c69:ProjectViewProjectNode" />
@@ -300,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Aufgabe1">
+  <component name="RunManager" selected="Application.Calculator">
     <configuration name="Aufgabe1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bwinf.woerterAufraeumen.Aufgabe1" />
       <module name="java.projects" />
@@ -320,6 +291,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bwinf.tobisGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="calculator.Calculator" />
+      <module name="java.projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,26 +337,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TobisGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bwinf.TobisGame" />
-      <module name="java.projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bwinf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.Aufgabe1" />
         <item itemvalue="Application.Aufgabe3" />
         <item itemvalue="Application.JuniorAufgabe1" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TobisGame" />
       </list>
     </recent_temporary>
   </component>
@@ -432,14 +403,10 @@
       <workItem from="1605960661246" duration="3310000" />
       <workItem from="1605969572466" duration="623000" />
       <workItem from="1605981881192" duration="9642000" />
-      <workItem from="1606051456814" duration="5595000" />
-    </task>
-    <task id="LOCAL-00012" summary="add FinancialCalculator &amp; OOP">
-      <created>1594414235323</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1594414235323</updated>
+      <workItem from="1606051456814" duration="5633000" />
+      <workItem from="1606164809734" duration="167000" />
+      <workItem from="1606496832032" duration="238000" />
+      <workItem from="1606610496913" duration="448000" />
     </task>
     <task id="LOCAL-00013" summary="add homework">
       <created>1602074041390</created>
@@ -777,11 +744,18 @@
       <option name="project" value="LOCAL" />
       <updated>1606058025027</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="changed names">
+      <created>1606063100282</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1606063100282</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111422000" />
+    <option name="totallyTimeSpent" value="112313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -794,8 +768,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28997868" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29957357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -804,7 +779,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49573562" visible="true" weight="0.22101842" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49573562" weight="0.22101842" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -840,7 +815,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changes of messages by vectors" />
     <MESSAGE value="deleted Player.java and do some changes in TobisGame" />
     <MESSAGE value="implemented liga system" />
     <MESSAGE value="implemented repetitions" />
@@ -865,7 +839,8 @@
     <MESSAGE value="code improvement" />
     <MESSAGE value="add file" />
     <MESSAGE value="message changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="message changes" />
+    <MESSAGE value="changed names" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed names" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/JFrameSkytale.java" />
@@ -1063,41 +1038,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bwinf/tobisGame/Aufgabe3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1556">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bwinf/passwords/JuniorAufgabe1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bwinf/woerterAufraeumen/raetsel1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="144" selection-start-line="1" selection-start-column="144" selection-end-line="1" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bwinf/Woerter/Dialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bwinf/Woerter/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bwinf/tobisGame/Aufgabe3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1115,6 +1069,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/bwinf/woerterAufraeumen/raetsel1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="144" selection-start-line="1" selection-start-column="144" selection-end-line="1" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bwinf/woerterAufraeumen/raetsel3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="76" selection-end-line="1" selection-end-column="186" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/bwinf/woerterAufraeumen/raetsel4.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1124,18 +1092,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bwinf/woerterAufraeumen/Aufgabe1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
-          <caret line="122" column="2" selection-start-line="122" selection-start-column="2" selection-end-line="122" selection-end-column="49" />
+        <state relative-caret-position="867">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bwinf/woerterAufraeumen/raetsel3.txt">
+    <entry file="file://$PROJECT_DIR$/src/bwinf/Woerter/Dialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="76" selection-end-line="1" selection-end-column="186" />
+        <state relative-caret-position="578">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bwinf/passwords/JuniorAufgabe1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calculator/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <folding>
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
