@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="changed names">
+    <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="created a frame">
       <change afterPath="$PROJECT_DIR$/src/calculator/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -62,7 +62,7 @@
       <recent name="H:\java.projects\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Calculator">
+  <component name="RunManager" selected="Application.CalculatorJFrame">
     <configuration name="Aufgabe1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bwinf.woerterAufraeumen.Aufgabe1" />
       <module name="java.projects" />
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JuniorAufgabe1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bwinf.passwords.JuniorAufgabe1" />
+    <configuration name="CalculatorJFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorJFrame" />
       <module name="java.projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bwinf.passwords.*" />
+          <option name="PATTERN" value="calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bwinf.Woerter.Main" />
+    <configuration name="JFrameSkytale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkytaleCryptographie.JFrameSkytale" />
       <module name="java.projects" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bwinf.Woerter.*" />
+          <option name="PATTERN" value="SkytaleCryptographie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,24 +128,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatorJFrame" />
+        <item itemvalue="Application.JFrameSkytale" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.Aufgabe1" />
         <item itemvalue="Application.Aufgabe3" />
-        <item itemvalue="Application.JuniorAufgabe1" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +213,8 @@
       <workItem from="1606496832032" duration="238000" />
       <workItem from="1606610496913" duration="448000" />
       <workItem from="1606837975798" duration="523000" />
+      <workItem from="1606860736758" duration="274000" />
+      <workItem from="1606944831386" duration="335000" />
     </task>
     <task id="LOCAL-00013" summary="add homework">
       <created>1602074041390</created>
@@ -581,7 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="deleted Player.java and do some changes in TobisGame" />
     <MESSAGE value="implemented liga system" />
     <MESSAGE value="implemented repetitions" />
     <MESSAGE value="implemented competetive system" />
@@ -606,13 +609,38 @@
     <MESSAGE value="add file" />
     <MESSAGE value="message changes" />
     <MESSAGE value="changed names" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed names" />
+    <MESSAGE value="created a frame" />
+    <option name="LAST_COMMIT_MESSAGE" value="created a frame" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="431" y="216" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606944887884">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="431" y="216" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1500.960@0.0.1500.960" timestamp="1606944887884" />
+    <state width="722" height="162" key="GridCell.Tab.0.bottom" timestamp="1606945170817">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="722" height="162" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1606945170817" />
+    <state width="722" height="162" key="GridCell.Tab.0.center" timestamp="1606945170817">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="722" height="162" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1606945170817" />
+    <state width="722" height="162" key="GridCell.Tab.0.left" timestamp="1606945170816">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="722" height="162" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1606945170816" />
+    <state width="722" height="162" key="GridCell.Tab.0.right" timestamp="1606945170817">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="722" height="162" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1606945170817" />
     <state x="151" y="172" key="SettingsEditor" timestamp="1606838496002">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="151" y="172" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1606838496002" />
+    <state x="568" y="394" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606944876125">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="568" y="394" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1500.960@0.0.1500.960" timestamp="1606944876125" />
   </component>
   <component name="masterDetails">
     <states>
