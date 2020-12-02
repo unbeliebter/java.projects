@@ -15,5 +15,8 @@ public class CalculatorJFrame {
         JPanel panel = new JPanel();
         panel.setBackground(new Color(59,59,59));
 
+        frame.add(panel);
+        frame.setVisible(true);
+
     }
 }
