@@ -36,11 +36,24 @@ public class CalculatorJFrame {
         buttonCalculate.setBackground(new Color(127, 127, 127));
         panel.add(buttonCalculate);
 
+        JLabel outputLabel = new JLabel("");
+        outputLabel.setForeground(Color.WHITE);
+        panel.add(outputLabel);
+
         buttonCalculate.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String inputNumberOne = numberOne.getText();
                 String inputNumberTwo = numberTwo.getText();
+
+                double inputNumberOneDouble = Double.parseDouble(inputNumberOne);
+                double inputNumberTwoDouble = Double.parseDouble(inputNumberTwo);
+
+                String output = "Addition: " + addition(inputNumberOneDouble, inputNumberTwoDouble) + "\n" +
+                                "Subtraktion: " + subtraction(inputNumberOneDouble, inputNumberTwoDouble) + "\n" +
+                                "Multiplikation: " + multiplication(inputNumberOneDouble, inputNumberTwoDouble) + "\n" +
+                                "Division: " + divison(inputNumberOneDouble, inputNumberTwoDouble);
+                outputLabel.setText(output);
             }
         });
 
