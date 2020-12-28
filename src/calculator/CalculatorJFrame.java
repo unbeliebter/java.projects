@@ -22,6 +22,18 @@ public class CalculatorJFrame {
         JTextField numberOne = new JTextField("", 30);
         panel.add(numberOne);
 
+        JLabel labelNumberTwo = new JLabel("2. Zahl der Berechnung");
+        labelNumberTwo.setForeground(Color.WHITE);
+        panel.add(labelNumberTwo);
+
+        JTextField numberTwo = new JTextField("", 30);
+        panel.add(numberTwo);
+
+        JButton buttonCalculate = new JButton("Berechnen");
+        buttonCalculate.setForeground(Color.WHITE);
+        buttonCalculate.setBackground(new Color(127, 127, 127));
+        panel.add(buttonCalculate);
+
         frame.add(panel);
         frame.setVisible(true);
 
