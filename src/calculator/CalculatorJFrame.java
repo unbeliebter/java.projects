@@ -15,12 +15,12 @@ public class CalculatorJFrame {
         JPanel panel = new JPanel();
         panel.setBackground(new Color(59,59,59));
 
-        JLabel labelnumber = new JLabel("1. Zahl der Berechnung");
-        labelnumber.setForeground(Color.WHITE);
-        panel.add(labelnumber);
+        JLabel labelNumberOne = new JLabel("1. Zahl der Berechnung");
+        labelNumberOne.setForeground(Color.WHITE);
+        panel.add(labelNumberOne);
 
-        JTextField number = new JTextField("", 30);
-        panel.add(number);
+        JTextField numberOne = new JTextField("", 30);
+        panel.add(numberOne);
 
         frame.add(panel);
         frame.setVisible(true);
