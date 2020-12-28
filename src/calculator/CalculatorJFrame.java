@@ -58,51 +58,68 @@ public class CalculatorJFrame {
                 JPanel panelError = new JPanel();
                 panelError.setBackground(new Color(59,59,59));
 
+                if (!inputNumberOne.matches("[0-9]+") || !inputNumberTwo.matches("[0-9]+")) {
+                    JLabel error = new JLabel("Es ist ein Fehler aufgetreten!");
+                    error.setForeground(Color.WHITE);
+                    panelError.add(error);
+
+                    JLabel error2 = new JLabel("Biite überprüfe alle Zahlen, ob nicht Buchstaben enthalten sind!");
+                    error2.setForeground(Color.WHITE);
+                    panelError.add(error2);
+
+                    JButton buttonClose = new JButton("Okay");
+                    buttonClose.setForeground(Color.WHITE);
+                    buttonClose.setBackground(new Color(127, 127, 127));
+                    panelError.add(buttonClose);
+
+                    buttonClose.addActionListener(new ActionListener() {
+                        @Override
+                        public void actionPerformed(ActionEvent e) {
+                            frameError.dispose();
+                        }
+                    });
+
+                    frameError.setVisible(true);
+                    frameError.add(panelError);
+                }
+
                 if (inputNumberOne.length() == 0 || inputNumberTwo.length() == 0) {
                     JLabel error = new JLabel("Es ist ein Fehler aufgetreten!");
                     error.setForeground(Color.WHITE);
                     panelError.add(error);
 
-                    if (inputNumberOne.length() == 0) {
-                        JLabel error2 = new JLabel("Bitte gebe die erste Zahl an!");
-                        error2.setForeground(Color.WHITE);
-                        panelError.add(error2);
-                    } else if (inputNumberTwo.length() == 0) {
-                        JLabel error2 = new JLabel("Bitte gebe die zweite Zahl an!");
-                        error2.setForeground(Color.WHITE);
-                        panelError.add(error2);
-                    }
+                    JLabel error2 = new JLabel("Bitte fülle alle Felder aus!");
+                    error2.setForeground(Color.WHITE);
+                    panelError.add(error2);
 
-                    JLabel labelline = new JLabel("______________________________________________________");
-                    labelline.setForeground(Color.WHITE);
-                    panelError.add(labelline);
+                    JButton buttonClose = new JButton("Okay");
+                    buttonClose.setForeground(Color.WHITE);
+                    buttonClose.setBackground(new Color(127, 127, 127));
+                    panelError.add(buttonClose);
+
+                    buttonClose.addActionListener(new ActionListener() {
+                        @Override
+                        public void actionPerformed(ActionEvent e) {
+                            frameError.dispose();
+                        }
+                    });
 
                     frameError.setVisible(true);
                     frameError.add(panelError);
-
-                } else {
-
-                    double inputNumberOneDouble = Double.parseDouble(inputNumberOne);
-                    double inputNumberTwoDouble = Double.parseDouble(inputNumberTwo);
-
-                    String output = "<html>Addition: " + addition(inputNumberOneDouble, inputNumberTwoDouble) + "<br>" +
-                            "Subtraktion: " + subtraction(inputNumberOneDouble, inputNumberTwoDouble) + "<br>" +
-                            "Multiplikation: " + multiplication(inputNumberOneDouble, inputNumberTwoDouble) + "<br>" +
-                            "Division: " + divison(inputNumberOneDouble, inputNumberTwoDouble) + "</html>";
-                    outputLabel.setText(output);
                 }
 
-                JButton buttonClose = new JButton("Okay");
-                buttonClose.setForeground(Color.WHITE);
-                buttonClose.setBackground(new Color(127, 127, 127));
-                panelError.add(buttonClose);
+                JLabel labelline = new JLabel("______________________________________________________");
+                labelline.setForeground(Color.WHITE);
+                panelError.add(labelline);
 
-                buttonClose.addActionListener(new ActionListener() {
-                    @Override
-                    public void actionPerformed(ActionEvent e) {
-                        frameError.dispose();
-                    }
-                });
+                double inputNumberOneDouble = Double.parseDouble(inputNumberOne);
+                double inputNumberTwoDouble = Double.parseDouble(inputNumberTwo);
+
+                String output = "<html>Addition: " + addition(inputNumberOneDouble, inputNumberTwoDouble) + "<br>" +
+                                "Subtraktion: " + subtraction(inputNumberOneDouble, inputNumberTwoDouble) + "<br>" +
+                                "Multiplikation: " + multiplication(inputNumberOneDouble, inputNumberTwoDouble) + "<br>" +
+                                "Division: " + divison(inputNumberOneDouble, inputNumberTwoDouble) + "</html>";
+                outputLabel.setText(output);
             }
         });
 
