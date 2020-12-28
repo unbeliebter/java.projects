@@ -2,6 +2,8 @@ package calculator;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class CalculatorJFrame {
     public static void main(String[] args) {
@@ -34,8 +36,32 @@ public class CalculatorJFrame {
         buttonCalculate.setBackground(new Color(127, 127, 127));
         panel.add(buttonCalculate);
 
+        buttonCalculate.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String inputNumberOne = numberOne.getText();
+                String inputNumberTwo = numberTwo.getText();
+            }
+        });
+
         frame.add(panel);
         frame.setVisible(true);
 
+    }
+
+    public static double addition(double numberOne, double numberTwo) {
+        return numberOne + numberTwo;
+    }
+
+    public static double subtraction(double numberOne, double numberTwo) {
+        return numberOne - numberTwo;
+    }
+
+    public static double multiplication(double numberOne, double numberTwo) {
+        return numberOne * numberTwo;
+    }
+
+    public static double divison(double numberOne, double numberTwo) {
+        return  numberOne / numberTwo;
     }
 }
