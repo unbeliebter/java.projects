@@ -9,7 +9,7 @@ public class CalculatorJFrame {
     public static void main(String[] args) {
 
         JFrame frame = new JFrame("Calculator");
-        frame.setSize(400, 250);
+        frame.setSize(400, 275);
         frame.setTitle("Calculator");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
@@ -36,6 +36,10 @@ public class CalculatorJFrame {
         buttonCalculate.setBackground(new Color(127, 127, 127));
         panel.add(buttonCalculate);
 
+        JLabel labelline = new JLabel("______________________________________________________");
+        labelline.setForeground(Color.WHITE);
+        panel.add(labelline);
+
         JLabel outputLabel = new JLabel("");
         outputLabel.setForeground(Color.WHITE);
         panel.add(outputLabel);
@@ -49,10 +53,10 @@ public class CalculatorJFrame {
                 double inputNumberOneDouble = Double.parseDouble(inputNumberOne);
                 double inputNumberTwoDouble = Double.parseDouble(inputNumberTwo);
 
-                String output = "Addition: " + addition(inputNumberOneDouble, inputNumberTwoDouble) + "\n" +
-                                "Subtraktion: " + subtraction(inputNumberOneDouble, inputNumberTwoDouble) + "\n" +
-                                "Multiplikation: " + multiplication(inputNumberOneDouble, inputNumberTwoDouble) + "\n" +
-                                "Division: " + divison(inputNumberOneDouble, inputNumberTwoDouble);
+                String output = "<html>Addition: " + addition(inputNumberOneDouble, inputNumberTwoDouble) + "<br>" +
+                                "Subtraktion: " + subtraction(inputNumberOneDouble, inputNumberTwoDouble) + "<br>" +
+                                "Multiplikation: " + multiplication(inputNumberOneDouble, inputNumberTwoDouble) + "<br>" +
+                                "Division: " + divison(inputNumberOneDouble, inputNumberTwoDouble) + "</html>";
                 outputLabel.setText(output);
             }
         });
