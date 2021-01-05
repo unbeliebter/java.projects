@@ -8,17 +8,17 @@ public class SearchingProcedures {
         System.out.println(java.util.Arrays.toString(result));
     }
 
-    public static int[] bubblesort(int array[]) {
+    public static int[] bubblesort(int[] array) {
         int number = array.length;
         int counter = 0;
 
         for(int i  = 0; i < number; i++) {
-            for(int j = 1; j < (number - i); j++) {
+            for(int k = 1; k < (number - i); k++) {
 
-                if(array[j-1] > array[j]) {
-                    counter = array[j-1];
-                    array[j-1] = array[j];
-                    array[j] = counter;
+                if(array[k-1] > array[k]) {
+                    counter = array[k-1];
+                    array[k-1] = array[k];
+                    array[k] = counter;
                 }
             }
         }
