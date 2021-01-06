@@ -3,9 +3,10 @@ package suchverfahren;
 public class SearchingProcedures {
     public static void main(String[] args) {
         int[] array = {3, 7, 4, 5, 9};
-        int[] result = bubblesort(array);
-
-        System.out.println(java.util.Arrays.toString(result));
+        int[] resultBubbleSort = bubblesort(array);
+        int[] resultInsertionSort = insertionSort(array);
+        System.out.println(java.util.Arrays.toString(resultBubbleSort) + "\n" +
+                java.util.Arrays.toString(resultInsertionSort));
     }
 
     public static int[] bubblesort(int[] array) {
@@ -23,5 +24,19 @@ public class SearchingProcedures {
             }
         }
         return array;
+    }
+
+    public static int[] insertionSort(int[] sortieren) {
+        int temp;
+        for (int i = 1; i < sortieren.length; i++) {
+            temp = sortieren[i];
+            int j = i;
+            while (j > 0 && sortieren[j - 1] > temp) {
+                sortieren[j] = sortieren[j - 1];
+                j--;
+            }
+            sortieren[j] = temp;
+        }
+        return sortieren;
     }
 }
