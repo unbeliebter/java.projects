@@ -7,9 +7,10 @@ public class SearchingProcedures {
         int[] resultBubbleSort = bubblesort(array);
         int[] resultInsertionSort = insertionSort(array);
         int[] resultSelectionSort = selectionsort(array);
-        System.out.println(java.util.Arrays.toString(resultBubbleSort) + "\n" +
-                java.util.Arrays.toString(resultInsertionSort) + "\n" +
-                java.util.Arrays.toString(resultSelectionSort));
+
+        System.out.println("BubbleSort: "java.util.Arrays.toString(resultBubbleSort) + "\n" +
+                "InsertionSort: " + java.util.Arrays.toString(resultInsertionSort) + "\n" +
+                "SelectionSort" + java.util.Arrays.toString(resultSelectionSort));
     }
 
     public static int[] bubblesort(int[] array) {
@@ -29,33 +30,35 @@ public class SearchingProcedures {
         return array;
     }
 
-    public static int[] insertionSort(int[] sortieren) {
-        int temp;
-        for (int i = 1; i < sortieren.length; i++) {
-            temp = sortieren[i];
-            int j = i;
-            while (j > 0 && sortieren[j - 1] > temp) {
-                sortieren[j] = sortieren[j - 1];
-                j--;
+    public static int[] insertionSort(int[] array) {
+        int counter;
+        for (int i = 1; i < array.length; i++) {
+            counter = array[i];
+
+            int place = i;
+
+            while (place > 0 && array[place - 1] > counter) {
+                array[place] = array[place - 1];
+                place--;
             }
-            sortieren[j] = temp;
+            array[place] = counter;
         }
-        return sortieren;
+        return array;
     }
 
-    public static int[] selectionsort(int[] sortieren) {
-        for (int i = 0; i < sortieren.length - 1; i++) {
-            for (int j = i + 1; j < sortieren.length; j++) {
-                if (sortieren[i] > sortieren[j]) {
-                    int temp = sortieren[i];
-                    sortieren[i] = sortieren[j];
-                    sortieren[j] = temp;
+    public static int[] selectionsort(int[] array) {
+        for (int i = 0; i < array.length - 1; i++) {
+
+            for (int j = i + 1; j < array.length; j++) {
+
+                if (array[i] > array[j]) {
+                    int counter = array[i];
+                    array[i] = array[j];
+                    array[j] = counter;
                 }
             }
         }
 
-        return sortieren;
+        return array;
     }
-
-
 }

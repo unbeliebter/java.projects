@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/suchverfahren/SearchingProcedures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+            <state relative-caret-position="289">
+              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -252,7 +252,7 @@
       <workItem from="1606860736758" duration="274000" />
       <workItem from="1606944831386" duration="773000" />
       <workItem from="1609831336609" duration="1122000" />
-      <workItem from="1609964444176" duration="240000" />
+      <workItem from="1609964444176" duration="737000" />
     </task>
     <task id="LOCAL-00013" summary="add homework">
       <created>1602074041390</created>
@@ -601,7 +601,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240000" />
+    <option name="totallyTimeSpent" value="737000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -725,8 +725,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/suchverfahren/SearchingProcedures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+        <state relative-caret-position="289">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>
