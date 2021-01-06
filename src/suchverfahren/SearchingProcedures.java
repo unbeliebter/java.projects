@@ -8,7 +8,7 @@ public class SearchingProcedures {
         int[] resultInsertionSort = insertionSort(array);
         int[] resultSelectionSort = selectionsort(array);
 
-        System.out.println("BubbleSort: "java.util.Arrays.toString(resultBubbleSort) + "\n" +
+        System.out.println("BubbleSort: " + java.util.Arrays.toString(resultBubbleSort) + "\n" +
                 "InsertionSort: " + java.util.Arrays.toString(resultInsertionSort) + "\n" +
                 "SelectionSort" + java.util.Arrays.toString(resultSelectionSort));
     }
