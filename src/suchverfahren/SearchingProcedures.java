@@ -1,9 +1,21 @@
 package suchverfahren;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class SearchingProcedures {
     public static void main(String[] args) {
-        int[] array = {3, 4, 8, 9, 19, 34, 133};
-        int key = 19;
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Gebe die Zahlenfolge an!");
+        String input = scanner.next();
+
+        System.out.println("Gebe einen Schlüssel an!");
+        int key = scanner.nextInt();
+
+        int[] array = new int[input.length()];
+        array = Arrays.stream(input.split(",")).mapToInt(Integer::parseInt).toArray();
 
         int[] resultBubbleSort = bubblesort(array);
         int[] resultInsertionSort = insertionSort(array);
