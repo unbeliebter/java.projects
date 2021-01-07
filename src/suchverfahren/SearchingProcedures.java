@@ -27,7 +27,7 @@ public class SearchingProcedures {
                 "InsertionSort: " + java.util.Arrays.toString(resultInsertionSort) + "\n" +
                 "SelectionSort: " + java.util.Arrays.toString(resultSelectionSort) + "\n" +
                 "Sequentielle Suche: " + resultSequentielSearch + "\n" +
-                "Binäre Suche: Das Element befindet sich auf Position " + resultBinarySearch);
+                "Binäre Suche: Das Element befindet sich auf Position " + resultBinarySearch + 1);
     }
 
     public static int[] bubblesort(int[] array) {
