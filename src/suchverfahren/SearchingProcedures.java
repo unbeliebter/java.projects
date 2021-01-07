@@ -3,26 +3,29 @@ package suchverfahren;
 public class SearchingProcedures {
     public static void main(String[] args) {
         int[] array = {3, 7, 4, 5, 9};
+        int key = 7;
 
         int[] resultBubbleSort = bubblesort(array);
         int[] resultInsertionSort = insertionSort(array);
         int[] resultSelectionSort = selectionsort(array);
+        int resultSequentielSearch = sequentielSearch(array, key);
 
         System.out.println("BubbleSort: " + java.util.Arrays.toString(resultBubbleSort) + "\n" +
                 "InsertionSort: " + java.util.Arrays.toString(resultInsertionSort) + "\n" +
-                "SelectionSort" + java.util.Arrays.toString(resultSelectionSort));
+                "SelectionSort: " + java.util.Arrays.toString(resultSelectionSort) + "\n" +
+                "Sequentielle Suche: " + resultSequentielSearch);
     }
 
     public static int[] bubblesort(int[] array) {
         int number = array.length;
         int counter = 0;
 
-        for(int i  = 0; i < number; i++) {
-            for(int k = 1; k < (number - i); k++) {
+        for (int i = 0; i < number; i++) {
+            for (int k = 1; k < (number - i); k++) {
 
-                if(array[k-1] > array[k]) {
-                    counter = array[k-1];
-                    array[k-1] = array[k];
+                if (array[k - 1] > array[k]) {
+                    counter = array[k - 1];
+                    array[k - 1] = array[k];
                     array[k] = counter;
                 }
             }
@@ -58,7 +61,27 @@ public class SearchingProcedures {
                 }
             }
         }
-
         return array;
     }
+
+    public static int sequentielSearch(int[] array, int key) {
+        int counter = 0;
+
+        for (int i = 0; counter <= array.length; i++) {
+
+            if (array[counter] == key) {
+                counter = key;
+                break;
+            } else {
+                counter++;
+                if (counter > array.length) {
+                    counter = -1;
+                    break;
+                }
+            }
+        }
+        return counter;
+    }
+
+
 }
