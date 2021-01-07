@@ -2,18 +2,20 @@ package suchverfahren;
 
 public class SearchingProcedures {
     public static void main(String[] args) {
-        int[] array = {3, 7, 4, 5, 9};
-        int key = 7;
+        int[] array = {3, 4, 8, 9, 19, 34, 133};
+        int key = 19;
 
         int[] resultBubbleSort = bubblesort(array);
         int[] resultInsertionSort = insertionSort(array);
         int[] resultSelectionSort = selectionsort(array);
         int resultSequentielSearch = sequentielSearch(array, key);
+        int resultBinarySearch = binarySearch(array, key);
 
         System.out.println("BubbleSort: " + java.util.Arrays.toString(resultBubbleSort) + "\n" +
                 "InsertionSort: " + java.util.Arrays.toString(resultInsertionSort) + "\n" +
                 "SelectionSort: " + java.util.Arrays.toString(resultSelectionSort) + "\n" +
-                "Sequentielle Suche: " + resultSequentielSearch);
+                "Sequentielle Suche: " + resultSequentielSearch + "\n" +
+                "Binäre Suche: Das Element befindet sich auf Position " + resultBinarySearch);
     }
 
     public static int[] bubblesort(int[] array) {
@@ -83,5 +85,8 @@ public class SearchingProcedures {
         return counter;
     }
 
+    public static int binarySearch(int[] array, int parameterOfArray) {
+        return java.util.Arrays.binarySearch(array, parameterOfArray);
+    }
 
 }
