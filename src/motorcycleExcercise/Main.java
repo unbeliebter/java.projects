@@ -1,12 +1,31 @@
 package motorcycleExcercise;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        Motorcycle motorcycle = new Motorcycle(2352, 8.4, "Flitzer", 2.5);
+        Scanner scanner = new Scanner(System.in);
 
-        double distance = 222;
-        double price = 1.20;
+        System.out.println("Gebe den Namen des Motorrads an!");
+        String name = scanner.next();
+
+        System.out.println("Gebe den Kilometerstand an!");
+        int kilometers = scanner.nextInt();
+
+        System.out.println("Gebe die Liter des Tanks an!");
+        double tank = scanner.nextDouble();
+
+        System.out.println("Gebe den Verbrauch des Motorrads an!");
+        double consumption = scanner.nextDouble();
+
+        System.out.println("Gebe eine Länge einer Strecke an, die du gefahren bist!");
+        double distance = scanner.nextDouble();
+
+        System.out.println("Gebe den Preis des Sprits an!");
+        double price = scanner.nextDouble();
+
+        Motorcycle motorcycle = new Motorcycle(kilometers, tank, name, consumption);
 
         double resultCosts = costsPerDistance(motorcycle, distance, price);
         double resultRange = range(motorcycle);
