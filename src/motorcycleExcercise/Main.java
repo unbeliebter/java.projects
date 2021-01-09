@@ -14,7 +14,8 @@ public class Main {
 
         String output = "Das Motorrad " + motorcycle.name + " kostet für die Strecke von " + distance + "km " + resultCosts + "€." + "\n" +
                 "Der Tank des Motorrads hat eine Reichweite von " + resultRange + "km. " + "\n" +
-                "Das Motorrad voll zu tanken kostet " + resultRefill + "€.";
+                "Das Motorrad voll zu tanken kostet " + resultRefill + "€." + "\n" +
+                "Würde das Motorrad die Strecke fahren, so hätte es den Kilometerstand von " + (motorcycle.kilometers + distance) + "km";
 
         System.out.println(output);
     }
