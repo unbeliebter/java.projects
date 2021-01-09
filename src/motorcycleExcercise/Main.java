@@ -12,7 +12,11 @@ public class Main {
         double resultRange = range(motorcycle);
         double resultRefill = refill(motorcycle, price);
 
-        System.out.println(resultCosts + " " + resultRange + " " + resultRefill);
+        String output = "Das Motorrad " + motorcycle.name + " kostet für die Strecke von " + distance + "km " + resultCosts + "€." + "\n" +
+                "Der Tank des Motorrads hat eine Reichweite von " + resultRange + "km. " + "\n" +
+                "Das Motorrad voll zu tanken kostet " + resultRefill + "€.";
+
+        System.out.println(output);
     }
 
     public static double costsPerDistance(Motorcycle motorcycle, double distance, double price) {

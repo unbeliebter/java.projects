@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/motorcycleExcercise/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/motorcycleExcercise/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/motorcycleExcercise/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/motorcycleExcercise/Motorcycle.java" afterDir="false" />
     </list>
     <list id="af875ae6-0371-4103-99a2-b3dd3f5e249f" name="L" comment="L" />
     <option name="SHOW_DIALOG" value="false" />
@@ -265,7 +263,7 @@
       <workItem from="1610050138050" duration="2289000" />
       <workItem from="1610059986250" duration="624000" />
       <workItem from="1610111604654" duration="501000" />
-      <workItem from="1610154838700" duration="1186000" />
+      <workItem from="1610154838700" duration="1667000" />
     </task>
     <task id="LOCAL-00013" summary="add homework">
       <created>1602074041390</created>
