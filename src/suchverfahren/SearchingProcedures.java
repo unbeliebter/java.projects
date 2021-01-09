@@ -23,9 +23,9 @@ public class SearchingProcedures {
         int resultSequentielSearch = sequentielSearch(array, key);
         int resultBinarySearch = binarySearch(array, key);
 
-        System.out.println("BubbleSort: " + java.util.Arrays.toString(resultBubbleSort) + "\n" +
-                "InsertionSort: " + java.util.Arrays.toString(resultInsertionSort) + "\n" +
-                "SelectionSort: " + java.util.Arrays.toString(resultSelectionSort) + "\n" +
+        System.out.println("BubbleSort: " + Arrays.toString(resultBubbleSort) + "\n" +
+                "InsertionSort: " + Arrays.toString(resultInsertionSort) + "\n" +
+                "SelectionSort: " + Arrays.toString(resultSelectionSort) + "\n" +
                 "Sequentielle Suche: " + resultSequentielSearch + "\n" +
                 "Binäre Suche: Das Element befindet sich auf Position " + resultBinarySearch + 1);
     }
@@ -98,7 +98,7 @@ public class SearchingProcedures {
     }
 
     public static int binarySearch(int[] array, int parameterOfArray) {
-        return java.util.Arrays.binarySearch(array, parameterOfArray);
+        return Arrays.binarySearch(array, parameterOfArray);
     }
 
 }
