@@ -1,3 +1,5 @@
+package bike;
+
 public class EBike {
     
     public String color;

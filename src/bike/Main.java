@@ -1,3 +1,5 @@
+package bike;
+
 public class Main {
     public static void main(String args[]) {
         EBike bike = new EBike(); 
