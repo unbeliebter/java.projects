@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/rekursion/SternBrocot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni/DualPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni/JanuaryCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni/ModuloCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni/MoneyCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni/PrimenumberCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni/RoundFields_b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni/RoundFlields_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java.projects/motorcycleExcercise/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java.projects/motorcycleExcercise/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java.projects/bwinf2021/scale/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java.projects/bwinf2021/scale/Main.class" afterDir="false" />
     </list>
     <list id="af875ae6-0371-4103-99a2-b3dd3f5e249f" name="L" comment="L" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +105,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -108,66 +118,7 @@
       <recent name="H:\java.projects\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SternBrocot">
-    <configuration name="JFrameSkytale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SkytaleCryptographie.JFrameSkytale" />
-      <module name="java.projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SkytaleCryptographie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="motorcycleExcercise.Main" />
-      <module name="java.projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="motorcycleExcercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchingProcedures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="suchverfahren.SearchingProcedures" />
-      <module name="java.projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="suchverfahren.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Skytale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Skytale" />
-      <module name="java.projects" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SternBrocot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rekursion.SternBrocot" />
-      <module name="java.projects" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rekursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PrimenumberCheck">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -179,13 +130,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JanuaryCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JanuaryCalculator" />
+      <module name="java.projects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModuloCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uni.ModuloCalculator" />
+      <module name="java.projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uni.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimenumberCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uni.PrimenumberCheck" />
+      <module name="java.projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uni.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoundFields_b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uni.RoundFields_b" />
+      <module name="java.projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uni.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoundFlields_a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uni.RoundFlields_a" />
+      <module name="java.projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uni.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SternBrocot" />
-        <item itemvalue="Application.SearchingProcedures" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.JFrameSkytale" />
-        <item itemvalue="Application.Skytale" />
+        <item itemvalue="Application.PrimenumberCheck" />
+        <item itemvalue="Application.RoundFields_b" />
+        <item itemvalue="Application.RoundFlields_a" />
+        <item itemvalue="Application.JanuaryCalculator" />
+        <item itemvalue="Application.ModuloCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -275,6 +285,18 @@
       <workItem from="1611756743186" duration="903000" />
       <workItem from="1611772641754" duration="1934000" />
       <workItem from="1611783210122" duration="2729000" />
+      <workItem from="1637159646449" duration="91000" />
+      <workItem from="1637159775714" duration="79000" />
+      <workItem from="1637159881304" duration="90000" />
+      <workItem from="1637159998478" duration="341000" />
+      <workItem from="1637181951917" duration="126000" />
+      <workItem from="1637272007146" duration="2026000" />
+      <workItem from="1637274461631" duration="2082000" />
+      <workItem from="1637527555354" duration="390000" />
+      <workItem from="1637527997480" duration="402000" />
+      <workItem from="1638019113755" duration="662000" />
+      <workItem from="1638022661606" duration="2316000" />
+      <workItem from="1638123942979" duration="2937000" />
     </task>
     <task id="LOCAL-00013" summary="add homework">
       <created>1602074041390</created>
