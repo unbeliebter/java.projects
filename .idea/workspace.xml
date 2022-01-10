@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/uni/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uni/DualPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uni/JanuaryCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uni/ModuloCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uni/MoneyCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uni/PrimenumberCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uni/RoundFields_b.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uni/RoundFlields_a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uni/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uni/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+    <list default="true" id="3fbbbf41-a0e3-48cf-a3dc-a1f2665a83b9" name="Default Changelist" comment="created a frame">
+      <change afterPath="$PROJECT_DIR$/src/uni/ArrayAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni/Crypting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni/Palindrom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni/PartyAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni/TestMultiMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/uni/numbers.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java.projects/bwinf2021/scale/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java.projects/bwinf2021/scale/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java.projects/uni/PrimenumberCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java.projects/uni/PrimenumberCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java.projects/uni/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java.projects/uni/Triangle.class" afterDir="false" />
     </list>
     <list id="af875ae6-0371-4103-99a2-b3dd3f5e249f" name="L" comment="L" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +39,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -99,16 +103,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/motorcycleExcercise/solution" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/uni" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\java.projects\src\uni" />
       <recent name="H:\java.projects\src\motorcycleExcercise\solution" />
       <recent name="H:\java.projects\src\bwinf\Woerter" />
     </key>
@@ -118,7 +123,7 @@
       <recent name="H:\java.projects\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimenumberCheck">
+  <component name="RunManager" selected="Application.PartyAnalysis">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -130,15 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JanuaryCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JanuaryCalculator" />
-      <module name="java.projects" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ModuloCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uni.ModuloCalculator" />
+    <configuration name="ArrayAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uni.ArrayAlgorithm" />
       <module name="java.projects" />
       <extension name="coverage">
         <pattern>
@@ -150,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimenumberCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uni.PrimenumberCheck" />
+    <configuration name="Crypting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uni.Crypting" />
       <module name="java.projects" />
       <extension name="coverage">
         <pattern>
@@ -163,8 +161,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoundFields_b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uni.RoundFields_b" />
+    <configuration name="Palindrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uni.Palindrom" />
       <module name="java.projects" />
       <extension name="coverage">
         <pattern>
@@ -176,8 +174,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoundFlields_a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uni.RoundFlields_a" />
+    <configuration name="PartyAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uni.PartyAnalysis" />
+      <module name="java.projects" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uni.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMultiMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uni.TestMultiMatrix" />
       <module name="java.projects" />
       <extension name="coverage">
         <pattern>
@@ -191,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrimenumberCheck" />
-        <item itemvalue="Application.RoundFields_b" />
-        <item itemvalue="Application.RoundFlields_a" />
-        <item itemvalue="Application.JanuaryCalculator" />
-        <item itemvalue="Application.ModuloCalculator" />
+        <item itemvalue="Application.PartyAnalysis" />
+        <item itemvalue="Application.Crypting" />
+        <item itemvalue="Application.TestMultiMatrix" />
+        <item itemvalue="Application.ArrayAlgorithm" />
+        <item itemvalue="Application.Palindrom" />
       </list>
     </recent_temporary>
   </component>
@@ -296,14 +307,27 @@
       <workItem from="1637527997480" duration="402000" />
       <workItem from="1638019113755" duration="662000" />
       <workItem from="1638022661606" duration="2316000" />
-      <workItem from="1638123942979" duration="2937000" />
-    </task>
-    <task id="LOCAL-00013" summary="add homework">
-      <created>1602074041390</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1602074041390</updated>
+      <workItem from="1638123942979" duration="3194000" />
+      <workItem from="1638131542655" duration="1693000" />
+      <workItem from="1638133301737" duration="32000" />
+      <workItem from="1638365368638" duration="105000" />
+      <workItem from="1638365510222" duration="34000" />
+      <workItem from="1638366093523" duration="655000" />
+      <workItem from="1638366790673" duration="4000" />
+      <workItem from="1638577238414" duration="2413000" />
+      <workItem from="1638660248945" duration="409000" />
+      <workItem from="1638737845366" duration="2777000" />
+      <workItem from="1638740885496" duration="74000" />
+      <workItem from="1638745895128" duration="30000" />
+      <workItem from="1638967027443" duration="965000" />
+      <workItem from="1639055839582" duration="7000" />
+      <workItem from="1639355090689" duration="6838000" />
+      <workItem from="1639831030395" duration="1026000" />
+      <workItem from="1639852584750" duration="10608000" />
+      <workItem from="1639921031594" duration="3225000" />
+      <workItem from="1639956416511" duration="800000" />
+      <workItem from="1641764965952" duration="439000" />
+      <workItem from="1641811373132" duration="111000" />
     </task>
     <task id="LOCAL-00014" summary="add HeronProceed code">
       <created>1602075685118</created>
@@ -641,7 +665,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606063100282</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="add new exercises">
+      <created>1638967132042</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1638967132043</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -704,7 +735,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="implemented liga system" />
     <MESSAGE value="implemented repetitions" />
     <MESSAGE value="implemented competetive system" />
     <MESSAGE value="fixed bugs in competetive system" />
@@ -729,7 +759,8 @@
     <MESSAGE value="message changes" />
     <MESSAGE value="changed names" />
     <MESSAGE value="created a frame" />
-    <option name="LAST_COMMIT_MESSAGE" value="created a frame" />
+    <MESSAGE value="add new exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new exercises" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/suchverfahren/SearchingProcedures.java">
